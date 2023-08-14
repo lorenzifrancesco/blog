@@ -1,0 +1,4 @@
+[submodule "lorenziblog/public"]
+	path = lorenziblog/public
+	url = https://github.com/lorenzifrancesco/lorenzifrancesco.github.io.git
+	branch = main
