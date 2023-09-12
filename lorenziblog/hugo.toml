@@ -8,6 +8,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 # disqusShortname = "yourDisqusShortname"
 
 [params]
+    mainSections = ["about"]              # sections to show on the homepage
     brand = "Francesco Lorenzi"                      # name of your site - appears in the sidebar
     brand_image = "/images/email.jpg"    # path to the image shown in the sidebar
     description = "Ph.D. student in Theoretical Condensed Matter Physics" # Used as default meta description if not specified in front matter

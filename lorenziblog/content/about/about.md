@@ -21,8 +21,12 @@ Other personal interests are philosophy of science, post-structuralism, science 
 
 
 [Curriculum Vitae](../docs/CV.pdf)
+### Lastest conference presentations
+[CMD30/FisMat2023](../docs/cmd30.pdf)
 
-### Here are some of my past projects and research works:
+[European Conference on Optical Communications 2022](../docs/ecoc.pdf)
+
+### Projects from M.Sc.:
 [M.Sc. thesis](../docs/Lorenzi_NLIN_BW.pdf)
 
 [Information theory essay](../docs/IT_essay_Francesco_Lorenzi.pdf)
