@@ -7,6 +7,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 # NOTE: If using Disqus as commenting engine, uncomment and configure this line
 # disqusShortname = "yourDisqusShortname"
 
+fontsize="2"
 [params]
     mainSections = ["about", "post"]              # sections to show on the homepage
     brand = "Francesco Lorenzi"                      # name of your site - appears in the sidebar
@@ -14,7 +15,6 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     description = "Ph.D. student in Theoretical Condensed Matter Physics" # Used as default meta description if not specified in front matter
     dark_mode = true                      # optional - defaults to false
     # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
-
     # MENU PLACEHOLDER
     # Menu dict keys:
         # Name:         The name to display on the menu.
@@ -23,19 +23,21 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
         # Limit:        If the files should be listed, how many should be shown.
     menu = [
         {Name = "About", URL = "/about/", HasChildren = false},
-        {Name = "Posts", URL = "/posts/", Pre = "Recent",HasChildren = false},
+        {Name = "Posts", URL = "/posts/", Pre = "Recent",HasChildren =false},
     ]
 
     # Links to your socials.  Comment or delete any you don't need/use. 
-    github_url = "https://github.com"
-    email_url = "mailto://user@domain"
+    github_url = "https://github.com/lorenzifrancesco"
+    email_url = "mailto://francesco.lorenzi.2@phd.unipd.it"
 
     # NOTE: If you don't want to use RSS, comment or delete the following lines
     # Adds an RSS icon to the end of the socials which links to {{ .Site.BaseURL }}/index.xml
-    rss_icon = false
+    rss_icon = true
     # Which section the RSS icon links to, defaults to all content. See https://gohugo.io/templates/rss/#section-rss
     rss_section = "posts"
 
+
+    font_size = "2"
     # Hex colors for your sidebar.
     sidebar_bg_color = "#202020"            # default is #202020
     sidebar_img_border_color = "#515151"    # default is #515151

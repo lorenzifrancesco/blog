@@ -2,3 +2,9 @@
 	path = lorenziblog/public
 	url = https://github.com/lorenzifrancesco/lorenzifrancesco.github.io.git
 	branch = main
+[submodule "lorenziblog/themes/poison"]
+	path = lorenziblog/themes/poison
+	url = https://github.com/lukeorth/poison.git
+[submodule "lorenziblog/themes/hugo-book"]
+	path = lorenziblog/themes/hugo-book
+	url = https://github.com/alex-shpak/hugo-book.git
