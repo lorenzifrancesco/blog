@@ -1,4 +1,6 @@
+[submodule "lorenziblog/themes/poison"]
+	path = lorenziblog/themes/poison
+	url = https://github.com/lorenzifrancesco/poison.git
 [submodule "lorenziblog/public"]
 	path = lorenziblog/public
 	url = https://github.com/lorenzifrancesco/lorenzifrancesco.github.io.git
-	branch = main
