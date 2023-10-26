@@ -2,7 +2,6 @@
 title: "Welcome to my projects and research page!"
 date: 2023-08-14T16:56:10+02:00
 draft: false
-hidetoc: false
 ---
 
  I'm a passionate Ph.D. student of Theoretical Physics of Matter, at the department of Physics and Astronomy of University of Padova.

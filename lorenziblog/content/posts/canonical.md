@@ -2,7 +2,7 @@
 title: "Canonical nonlinear dynamics is described by Nonlinear Schrödinger equation"
 date: 2023-08-14
 draft: false
-math: katex
+math: true
 ---
 Nonlinear Schrödinger equations appears in numerous physical setups, like nonlinear optics, condensed matter physics and plasma physics.
 In all of these scenarios, it describes the dynamics of wave envelopes in the presence of dispersion and weak nonlinearity. A natural question is to understand if it is possible to write the equation regardless of the physical details, starting from a purely mathematical assumptions on the evolution of the fields. This is illuminating from the mathematical point of view, besides being an useful exercise.
