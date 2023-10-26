@@ -24,13 +24,14 @@ They are available at my [Google Scholar profile](https://scholar.google.it/cita
 
 ### Presentations:
 
-- [Presentation at BQMC (October 2023)](../docs/cmd30.pdf)
+- [Presentation at BQMC (October 2023)](../docs/bqmc.pdf)
 
 - [CMD30/FisMat2023 (September 2023)](../docs/cmd30.pdf)
 
 - [European Conference on Optical Communications (September 2022)](../docs/ecoc.pdf)
 
 ### Curriculum vitae
+
 - [Curriculum Vitae](../docs/CV.pdf)
 
 ### Projects from M.Sc.:
