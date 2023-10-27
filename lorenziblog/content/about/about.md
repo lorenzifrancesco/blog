@@ -18,23 +18,28 @@ Due to my background in photonic engineering and ICT, I'm also interested in
 
 Other personal interests are philosophy of science, post-structuralism, science and technology studies (STS), music.
 
-### Recent publications
+#### Recent publications
 
 They are available at my [Google Scholar profile](https://scholar.google.it/citations?user=zZfA3VcAAAAJ&hl=en&oi=ao) 
 
-### Presentations:
+#### Presentations at conferences
 
-- [Presentation at BQMC (October 2023)](../docs/bqmc.pdf)
 
 - [CMD30/FisMat2023 (September 2023)](../docs/cmd30.pdf)
 
 - [European Conference on Optical Communications (September 2022)](../docs/ecoc.pdf)
 
-### Curriculum vitae
+#### Seminars
+
+- [Matter-wave soliton dynamics \@ BQMC (October 2023)](../docs/bqmc.pdf)
+
+- [Scattering theory for ultracold atoms \@ Ph.D. course "Quantum physics with atoms and ions" (April 2023)](../docs/scattering.pdf)
+
+#### Curriculum vitae
 
 - [Curriculum Vitae](../docs/CV.pdf)
 
-### Projects from M.Sc.:
+#### Projects from M.Sc.
 
 - [M.Sc. thesis](../docs/Lorenzi_NLIN_BW.pdf)
 
