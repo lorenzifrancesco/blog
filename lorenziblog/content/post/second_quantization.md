@@ -3,165 +3,148 @@ title: "Second quantization of the electromagnetic field"
 date: 2023-10-27
 draft: false
 ---
-
-La procedura di quantizzazione di un modello classico di un fenomeno fisico ha il suo passaggio cruciale nella promozione delle variabili dinamiche del modello a degli operatori nello spazio di Hilbert degli stati quantistici del sistema. La quantizzazione ha successo se questi operatori formano un insieme completo di osservabili che commutano, quindi sono compatibili (tale insieme ha l'acronimo ICOC). In tal caso, ogni stato quantistico del sistema si può esprimere come somma di autostati, e possiamo scrivere le ampiezze di probabilità, e prendere le medie di tutte le variabili dinamiche.
-La descrizione quantizzata del campo elettromagnetico nel vuoto si ottiene esprimendo l'hamiltoniana del campo in un volume $V$ finito, per poi prendere il limite per $V \to \infty$. La promozione ad operatori è effettuata tramite gli operatori di posizione e momento coniugato, che sono introdotti tramite la scrittura dell'hamiltoniana del campo in termini di una somma, eventualmente infinita, di oscillatori armonici non accoppiati.
-
-Iniziamo esprimendo l'hamiltoniana del campo in un volume di spazio $V$. 
+The procedure of quantization of a classical theory has its crucial passage in the promotion of the dynamical variables to operators in the Hilbert space of the quantum states of the system. The quantization is successful if these operators form a complete set of commuting observables (this set is called ICOC). In this case, every quantum state of the system can be expressed as a sum of eigenstates, and we can write the probability amplitudes, and take the averages of all the dynamical variables.
+The quantized description of the electromagnetic field in the vacuum is obtained by expressing the field hamiltonian in a finite volume $V$, and then taking the limit for $V \to \infty$. The promotion to operators is performed by the position and conjugate momentum operators, which are introduced by writing the field hamiltonian in terms of a sum, possibly infinite, of uncoupled harmonic oscillators.
+We start by expressing the hamiltonian of the field in a volume of space $V$.
 $$
-    H = \int_{V}dV \dfrac{1}{2}\varepsilon_0 |\mathbf{E}|^2 + \dfrac{1}{2\mu_0}|\mathbf{B}|^2
+    H = \int_{V}dV \dfrac{1}{2}\varepsilon_0 |\mathbf{E}|^2 + \dfrac{1}{2\mu_0}|\mathbf{B}|^2.
 $$
-
-Ora ricordiamo che è possibile esprimere i campi $\mathbf{E}$, $\mathbf{B}$ usando il potenziale vettore magnetico $\mathbf{A}$ in questo modo, scegliendo il gauge di Coulomb:
+Now we remember that it is possible to express the fields $\mathbf{E}$, $\mathbf{B}$ using the magnetic vector potential $\mathbf{A}$ in this way, choosing the Coulomb gauge:
 $$ 
 \begin{align}
     \mathbf{E} &= - \dfrac{\partial}{\partial t}	\mathbf{A} \\\
-    \mathbf{B} &= \nabla \times \mathbf{A}
+    \mathbf{B} &= \nabla \times \mathbf{A}.
 \end{align} 
 $$
-Ricordiamo, dalle equazioni di Maxwell, l'equazione d'onda per il campo $\mathbf{A}$
+We recall that, from the Maxwell equations, the wave equation for the field $\mathbf{A}$
 $$
-    \left(\nabla^2 - \dfrac{1}{c^2} \dfrac{\partial^2}{\partial t^2} \right)\mathbf{A} =0
+    \left(\nabla^2 - \dfrac{1}{c^2} \dfrac{\partial^2}{\partial t^2} \right)\mathbf{A} =0.
 $$
-Dato che siamo in un volume limitato di spazio, possiamo imporre una condizione al contorno periodica, ed esprimiamo il campo $\mathbf{A}$ secondo la sua serie di Fourier, tramite somma di esponenziali complessi. 
-Scegliamo di esprimere le onde piane componenti come onde polarizzate linearmente. Questo non inficia la generalità del procedimento, in quanto altre polarizzazioni sono esprimibili come somme di onde polarizzate linearmente, con opportuni sfasamenti.
-Sia quindi $\mathbf{k}$ il vettore d'onda, ed $s$ la polarizzazione lineare ($s \in \{\alpha, \beta\}$ dove $\alpha, \beta$ sono due polarizzazioni ortogonali possibili dato il vettore d'onda $\mathbf{k}$).
-Abbiamo che 
+Since we are in a limited volume of space, we can impose a periodic boundary condition, and express the field $\mathbf{A}$ according to its Fourier series, by summing complex exponentials.
+We choose to express the component plane waves as linearly polarized waves. This does not affect the generality of the procedure, as other polarizations can be expressed as sums of linearly polarized waves, with appropriate phase shifts.
+Let therefore $\mathbf{k}$ be the wave vector, and $s$ the linear polarization ($s \in \{\alpha, \beta\}$ where $\alpha, \beta$ are two possible orthogonal polarizations given the wave vector $\mathbf{k}$).
+We have that  
 
 $$
-    \mathbf{A} = \sum_{\mathbf{k}s} A_{\mathbf{k}s}(t) e^{i \mathbf{k} \cdot \mathbf{r}} \, \hat{\epsilon}_{\mathbf{k}s}
+    \mathbf{A} = \sum_{\mathbf{k}s} A_{\mathbf{k}s}(t) e^{i \mathbf{k} \cdot \mathbf{r}} \, \hat{\epsilon}_{\mathbf{k}s},
 $$
-
-Dove $\hat{\epsilon}_{\mathbf{k}s}$ è  il versore del campo, parallelo alla polarizzazione.
-Inoltre, il campo $\mathbf{A}$ dev'essere reale, quindi abbiamo la condizione
-
-$$
-    A_{-\mathbf{k}s}(t) = A_{\mathbf{k}s}^*(t)
-$$
-
-In vista di questa condizione, a meno di ridefinire i termini $A_{\mathbf{k}s}$ dimezzandoli, possiamo riscrivere la somma come
+where $\hat{\epsilon}_{\mathbf{k}s}$ is the unit vector of the field, parallel to the polarization.
+Furthermore the field $\mathbf{A}$ must be real, so we have the condition 
 
 $$
-    \mathbf{A} = \sum _{\mathbf{k}s} A _{\mathbf{k}s}(t) e^{i \mathbf{k} \cdot \mathbf{r}} +  A^* _{\mathbf{k}s}(t) e^{-i \mathbf{k} \cdot \mathbf{r}} \hat{\epsilon} _{\mathbf{k}s}
+    A_{-\mathbf{k}s}(t) = A_{\mathbf{k}s}^*(t).
 $$
-
-Sostituendo la seguente condizione
-
-$$
-    \ddot{A} _{\mathbf{k}s}(t) + \omega _\mathbf{k}^2  A _{\mathbf{k}s}(t) = 0
-$$
-
-con la __relazione di dispersione__
+By imposing this condition, unless we redefine the terms $A_{\mathbf{k}s}$ by halving them, we can rewrite the sum as
 
 $$
-    \omega_\mathbf{k} = c |\mathbf{k}|
+    \mathbf{A} = \sum _{\mathbf{k}s} A _{\mathbf{k}s}(t) e^{i \mathbf{k} \cdot \mathbf{r}} +  A^* _{\mathbf{k}s}(t) e^{-i \mathbf{k} \cdot \mathbf{r}} \hat{\epsilon} _{\mathbf{k}s}.
 $$
 
-Dato che $\omega$, nel vuoto, dipende solamente dal modulo $|\mathbf{k}| =: k$ possiamo anche scrivere $\omega_k$ per semplicità.
-Quindi l'equazione di risolve
+Substituting the following condition
 
 $$
-        A_{\mathbf{k}s}(t) = A_{\mathbf{k}s}(0) e^{-\omega_k t}
+    \ddot{A} _{\mathbf{k}s}(t) + \omega _\mathbf{k}^2  A _{\mathbf{k}s}(t) = 0,
 $$
 
-Calcoliamo ora l'hamiltoniana in termini di questa espansione di Fourier dei campi
+with the __dispersion relation__
 
 $$
-        H = \int_{V}dV \dfrac{1}{2}\varepsilon_0 |\dfrac{\partial}{\partial t} \mathbf{A}|^2 + \dfrac{1}{2\mu_0}|\nabla \times \mathbf{A}|^2
+    \omega_\mathbf{k} = c |\mathbf{k}|.
+$$
+Since $\omega$, in the vacuum, depends only on the modulus $|\mathbf{k}| =: k$ we can also write $\omega_k$ for simplicity.
+So the equation is solved as 
+
+$$
+        A_{\mathbf{k}s}(t) = A_{\mathbf{k}s}(0) e^{-\omega_k t}.
 $$
 
-In questo modo otteniamo 
+We now computer the Hamiltonian in terms of this Fourier expansion of the fields
 
 $$
-    H = \sum_{\mathbf{k}s} \varepsilon_0 \omega_k^2 ( A_{\mathbf{k}s}(t) A_{\mathbf{k}s}^* (t) + A_{\mathbf{k}s}^{*} (t) A_{\mathbf{k}s}(t)) 
+        H = \int_{V}dV \dfrac{1}{2}\varepsilon_0 |\dfrac{\partial}{\partial t} \mathbf{A}|^2 + \dfrac{1}{2\mu_0}|\nabla \times \mathbf{A}|^2.
 $$
+ In this way we obtain
 
-notiamo che questa hamiltoniana è indipendente dal tempo, poiché lo sono i termini  $A_{\mathbf{k}s}(t)A_{\mathbf{k}s}^* (t)$ ed il complesso coniugato. Per brevità possiamo scrivere semplicemente $A_{\mathbf{k}s} A_{\mathbf{k}s}^* $.
-Introduciamo le variabili adimensionali $a_{\mathbf{k}s}$, ed $a_{\mathbf{k}s}^*$ in modo che 
+$$
+    H = \sum_{\mathbf{k}s} \varepsilon_0 \omega_k^2 ( A_{\mathbf{k}s}(t) A_{\mathbf{k}s}^* (t) + A_{\mathbf{k}s}^{*} (t) A_{\mathbf{k}s}(t)) ,
+$$
+we notice that this Hamiltonian is independent of time, since the terms $A_{\mathbf{k}s}(t)A_{\mathbf{k}s}^* (t)$ and the complex conjugate are. For brevity we can simply write $A_{\mathbf{k}s} A_{\mathbf{k}s}^* $.
+We introduce the adimensional variables $a_{\mathbf{k}s}$, and $a_{\mathbf{k}s}^*$ in such a way that
 
 $$ 
 \begin{align}
     A_{\mathbf{k}s} &= \sqrt{\dfrac{\hslash}{2\epsilon_0 \omega_k}} a_{\mathbf{k}s} \\\
-    A_{\mathbf{k}s}^* &= \sqrt{\dfrac{\hslash}{2\epsilon_0 \omega_k}} a_{\mathbf{k}s}^*
+    A_{\mathbf{k}s}^* &= \sqrt{\dfrac{\hslash}{2\epsilon_0 \omega_k}} a_{\mathbf{k}s}^*.
 \end{align} 
 $$
 
-Allora
+Therefore
 
 $$
-    H = \sum_{\mathbf{k}s} \dfrac{\hslash \omega_k}{2} (a_{\mathbf{k}s}a_{\mathbf{k}s}^* +a_{\mathbf{k}s}a_{\mathbf{k}s}^*)
+    H = \sum_{\mathbf{k}s} \dfrac{\hslash \omega_k}{2} (a_{\mathbf{k}s}a_{\mathbf{k}s}^* +a_{\mathbf{k}s}a_{\mathbf{k}s}^*).
 $$
 
-Possiamo intodurre altre variabili 
+We can introduce other variables
 
 $$ 
 \begin{align}
     q_{\mathbf{k}s} &= \sqrt{\dfrac{2\hslash}{\omega_k}} (a_{\mathbf{k}s} + a_{\mathbf{k}s}^* )\\\
-    p_{\mathbf{k}s} &= \sqrt{2\hslash \omega_k} (a_{\mathbf{k}s} - a_{\mathbf{k}s}^* )
+    p_{\mathbf{k}s} &= \sqrt{2\hslash \omega_k} (a_{\mathbf{k}s} - a_{\mathbf{k}s}^* ),
 \end{align} 
 $$
-
-quindi esprimendo l'hamiltoniana in funzione di $q_{\mathbf{k}s}$ e $p_{\mathbf{k}s}$, otteniamo la seguente, importante espressione
-
-$$
-    H = \sum_{\mathbf{k}s} \dfrac{p_{\mathbf{k}s}^2}{2} +  \omega_k^2 \dfrac{q_{\mathbf{k}s}^2}{2}
-$$
-
-Osserviamo che questa hamiltoniana è esattamente quella di una somma di un'infinità di oscillatori armonici, uno per ogni modo del campo elettromagnetico.
-Siamo finalmente giunti al punto in cui possiamo promuovere le variabili ad operatori. Questa è un'operazione possibile quando stabiliamo le relazioni di commutazione tra le variabili dinamiche. In questo caso assumiamo le relazioni di commutazione fondamentali
+so we can express the Hamiltonian in terms of $q_{\mathbf{k}s}$ and $p_{\mathbf{k}s}$, obtaining the following, important expression
 
 $$
-    [ \hat{q} _{n} , \hat{p} _m ] = \delta _{nm}
+    H = \sum_{\mathbf{k}s} \dfrac{p_{\mathbf{k}s}^2}{2} +  \omega_k^2 \dfrac{q_{\mathbf{k}s}^2}{2}.
 $$
-
-ovvero
-
-$$
-    \hat{q} _n \hat{p} _m - \hat{p} _m \hat{q} _n = i\hslash \delta _{nm}
-$$
-
-dato che
+By observing that this Hamiltonian is exactly that of a sum of an infinite number of harmonic oscillators, one for each mode of the electromagnetic field.
+We are finally at the point where we can promote the variables to operators. This is an operation possible when we establish the commutation relations between the dynamical variables. In this case we assume the fundamental commutation relations 
 
 $$
-    i\hslash [\hat{A}, \hat{B}] =  \hat{A}\hat{B}-\hat{B}\hat{A}
+    [ \hat{q} _{n} , \hat{p} _m ] = \delta _{nm},
+$$
+
+that is
+
+$$
+    \hat{q} _n \hat{p} _m - \hat{p} _m \hat{q} _n = i\hslash \delta _{nm},
+$$
+
+since
+$$
+    i\hslash [\hat{A}, \hat{B}] =  \hat{A}\hat{B}-\hat{B}\hat{A}.
 $$ 
-
-Tramite quindi l'operazione di promozione 
-
+By means of the promotion operation
 $$ 
 \begin{align}
     q _{\mathbf{k}s} \to \hat{q} _{\mathbf{k}s} \\\
-    p _{\mathbf{k}s} \to \hat{p} _{\mathbf{k}s} 
+    p _{\mathbf{k}s} \to \hat{p} _{\mathbf{k}s} ,
 \end{align} 
 $$
-
-possiamo scrivere un'hamiltoniana quantistica
+we can write a quantum Hamiltonian
 
 $$
-    \hat{H} = \sum _{\mathbf{k}s} \dfrac{\hat{p} _{\mathbf{k}s}^2}{2} +  \omega _k^2 \dfrac{\hat{q} _{\mathbf{k}s}^2}{2}
+    \hat{H} = \sum _{\mathbf{k}s} \dfrac{\hat{p} _{\mathbf{k}s}^2}{2} +  \omega _k^2 \dfrac{\hat{q} _{\mathbf{k}s}^2}{2}.
 $$
-
-Notiamo che è un'osservabile, poiché è una somma di osservabili (possiamo dire che questo è un operatore hermitiano).
-Possiamo applicare la procedura standard per la quantizzazione dell'oscillatore armonico, introducendo gli operatori di creazione e annichilazione
+We notice that it is an observable, since it is a sum of observables (we can say that this is a Hermitian operator).
+We can then apply the standard procedure for the quantization of the harmonic oscillator, introducing the creation and annihilation operators
 
 $$ 
 \begin{align}
     \hat{a} _{\mathbf{k}s} &= \sqrt{\dfrac{\omega _k}{2\hslash}} \left(\hat{q} _{\mathbf{k}s} + \dfrac{i}{\omega _k}\hat{p} _{\mathbf{k}s}\right)\\\
-    \hat{a} _{\mathbf{k}s}^{\dagger} &= \sqrt{\dfrac{\omega _k}{2\hslash}} \left(\hat{q} _{\mathbf{k}s} - \dfrac{i}{\omega _k}\hat{p} _{\mathbf{k}s}\right) 
+    \hat{a} _{\mathbf{k}s}^{\dagger} &= \sqrt{\dfrac{\omega _k}{2\hslash}} \left(\hat{q} _{\mathbf{k}s} - \dfrac{i}{\omega _k}\hat{p} _{\mathbf{k}s}\right) ,
 \end{align} 
 $$
-
-che soddisfano alle relazioni di commutazione
-
-$$
-    [\hat{a} _{\mathbf{k}s}, \hat{a} _{\mathbf{k}'s'}^\dagger] = \delta _{\mathbf{k}, \mathbf{k}'} \delta _{s, s'}
-$$
-
-otteniamo quindi
+that satisfy the commutation relations
 
 $$
-\hat{H} = \sum _{\mathbf{k}s} \hslash \omega_k \left(\hat{a} _{\mathbf{k}s}^\dagger \hat{a} _{\mathbf{k}s} + \dfrac{1}{2}\right)
+    [\hat{a} _{\mathbf{k}s}, \hat{a} _{\mathbf{k}'s'}^\dagger] = \delta _{\mathbf{k}, \mathbf{k}'} \delta _{s, s'},
+$$
+we therefore obtain
+
+$$
+\hat{H} = \sum _{\mathbf{k}s} \hslash \omega_k \left(\hat{a} _{\mathbf{k}s}^\dagger \hat{a} _{\mathbf{k}s} + \dfrac{1}{2}\right).
 $$
 
-Lo spazio di Hilbert degli stati quantistici del sistema è chiamato spazio di Fock.
-La procedura di seconda quantizzazione del campo elettromagnetico è un esempio di calcolo tipico della teoria quantistica dei campi. Questa teoria fisica permette di trovare delle espressioni quantistiche per i campi, siano essi elettromagnetici, o anche campi di materia.
+The Hilbert space of the quantum states of the system is called Fock space.
+The second quantization procedure of the electromagnetic field is an example of a typical calculation of quantum field theory. This physical theory allows us to find quantum expressions for fields, be they electromagnetic, or even fields of matter.
