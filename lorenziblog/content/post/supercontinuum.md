@@ -11,8 +11,6 @@ Inspired by __[G. Marcon, Ph.D. thesis, Università di Padova (2022)]__.
 When a pulse propagates in a nonlinear fiber, it can happen that the interplay between dispersion and nonlinear processes generate a massive broadening of the spectrum.
 Processes contributing to this phenonmenology are Kerr-induced four-wave mixing (FWM), self-phase modulation (SPM), stimulated Brillouin scattering (SBS) and stimulated Raman scattering (SRS). 
 
-<img src="/images/super/third.png" alt="drawing" width="200"/>
-
 ![Envelope and spectra evolution of a order 3 soliton pulse in third order dispersion](/images/super/third.png)
 
 ### Nonlinear Schrödinger equation for SPM and GVD
