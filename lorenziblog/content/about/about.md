@@ -24,16 +24,21 @@ They are available at my [Google Scholar profile](https://scholar.google.it/cita
 
 #### Presentations at conferences
 
+- [CMD30/FisMat2023, Milan, September 2023](../docs/cmd30.pdf)
 
-- [CMD30/FisMat2023 (September 2023)](../docs/cmd30.pdf)
+- [European Conference on Optical Communications, Basel, September 2022](../docs/ecoc.pdf)
 
-- [European Conference on Optical Communications (September 2022)](../docs/ecoc.pdf)
-
+- [Cold Atom Workshop, Barcelona, January 2024 (poster)](../docs/CAPS.pdf)
+  
 #### Seminars
 
 - [Matter-wave soliton dynamics \@ BQMC (October 2023)](../docs/bqmc.pdf)
 
 - [Scattering theory for ultracold atoms \@ Ph.D. course "Quantum physics with atoms and ions" (April 2023)](../docs/scattering.pdf)
+
+- [Study of the λ and phase separation transitions in 3 He-4 He mixtures @ Ph.D. course "Renormalization Group in Statistical Mechanics" (October 2023)](../docs/RG1_mixtures_Lorenzi.pdf)
+ 
+- [Renormalization group study of first-order phase transitions: scaling properties and finite-size effects @ Ph.D. course "Renormalization Group in Statistical Mechanics" (October 2023)](../docs/RG2_scaling_Lorenzi.pdf)
 
 #### Curriculum vitae
 
@@ -41,8 +46,12 @@ They are available at my [Google Scholar profile](https://scholar.google.it/cita
 
 #### Projects from M.Sc.
 
-- [M.Sc. thesis](../docs/Lorenzi_NLIN_BW.pdf)
+- [M.Sc. thesis - "Nonlinear noise in WDM systems: study of classical and quantum channel interaction and capacity" (September 2022)](../docs/Lorenzi_NLIN_BW.pdf)
 
-- [Information theory essay](../docs/IT_essay_Francesco_Lorenzi.pdf)
+- [Information theory essay - Methods for Generalized Rate Distortion Problems in Sensor Networks](../docs/IT_essay_Francesco_Lorenzi.pdf)
 
-- [Nanophotonics project](../docs/Nanophotonics.pdf)
+- [Nanophotonics project - Propagation of Precursors in dispersive media](../docs/Nanophotonics.pdf)
+
+- [Quantum Optics and Lasers homework - Mathematics of coherent states and exercises](../docs/QOL.pdf)
+
+- [B.Sc. thesis - "Dispersione cromatica e non linearità in fibra ottica, un’analisi simulativa"](../docs/tesina.pdf)

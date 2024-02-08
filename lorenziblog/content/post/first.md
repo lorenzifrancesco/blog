@@ -1,10 +1,10 @@
 ---
 title: "Quasistationary modes in optical resonator with moving mirror"
 date: 2023-08-14T19:30:52+02:00
-draft: false
+draft: true
 ---
 
-Based on Zh. Eksp. Teor. Fiz. __53__, 2123 (1967)
+Based on [Zh. Eksp. Teor. Fiz. __53__, 2123 (1967)]
 
 Consider an electromagnetic field in a laser cavity with a mirror moving with velocity $v=\beta c$.
 Suppose to neglect polarization. So the transverse field $E(x, t)$ satisfy boundary conditions
