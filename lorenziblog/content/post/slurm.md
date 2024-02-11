@@ -4,13 +4,17 @@ date: 2024-02-11T16:12:36+01:00
 draft: false
 ---
 ## Desired topology and active services
-![topology](../images/slurm/SLURM.jpg)
+![topology](../../images/slurm/SLURM.jpg)
 
 ## SLURM super quick start guide 
 The guide is available [here](https://slurm.schedmd.com/quickstart_admin.html).
 
-On Centos8Stream, we first install MUNGE, then install SLURM by the bzip package
-
+On Centos8Stream, we first install MUNGE, then install SLURM by the bzip package.
+Status of munge can be probed by 
+```
+munge -n | unmunge
+```
+Installing the SLURM package is done manually
 ```
 wget https://download.schedmd.com/slurm/slurm-23.11.3.tar.bz2
 ```
@@ -94,6 +98,48 @@ Also, we got error
 ```
 Feb 11 17:26:11 slurph.novalocal slurmdbd[7414]: slurmdbd: error: mysql_real_connect failed: 2002 Can't connect to local MySQL server through socket '/var/lib/mys>
 ```
+
+Seems like we have problems with the installation of MariaDB.
+Lets run
+```
+ sudo dnf install mariadb-server 
+```
+Finally we are able to start the service 
+```
+systemctl start mariadb.service
+```
+
+## Who is running SLURM?
+Running
+```
+slurmdbd -Dvvv
+```
+We get errors like 
+```
+slurmdbd.conf owned by 1000 not SlurmUser(1003)
+```
+
+Seems like we have problems in read from ```/var/run/<PID files>```
+One can [generate a folder inside ```/var/run``` and chown it](https://serverfault.com/questions/159334/what-permissions-are-needed-to-write-a-pid-file-in-var-run), but since ```/var/run``` is ```tmpfs``` it will go after a system reboot.
+The solution seems to be to run a ```mkdir + chown``` script at startup. This is to be implemented.
+The script looks like (```/home/centos/startup_pid.sh```)
+```
+#! /bin/bash
+mkdir /var/run/slurm
+chown slurm /var/run/slurm
+
+```
+Still we have problems in connecting to the database. This is a problem also on the startup of ```slurmd.service```.
+Obviously, we lack a [DB configuration](https://wiki.fysik.dtu.dk/Niflheim_system/Slurm_installation/).
+## Database configuration
+We follow commands from the previous link.
+
+## Unable to determine this slurmd's nodename
+This problem is related to the impossibility to detect ```runner01```.
+
 ## Useful resources for SLURM management
  - [SLURM cheatsheet](https://www.carc.usc.edu/user-information/user-guides/hpc-basics/slurm-cheatsheet)
  - [SLURM config file generator](https://slurm.schedmd.com/configurator.html)
+### Other installation guides 
+ - [@DISI_computational_pharmacology](https://wiki.docking.org/index.php/Slurm_Installation_Guide)
+ - [@niflheim](https://wiki.fysik.dtu.dk/Niflheim_system/Slurm_installation/)
