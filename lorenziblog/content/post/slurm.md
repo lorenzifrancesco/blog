@@ -136,6 +136,11 @@ We follow commands from the previous link.
 
 ## Unable to determine this slurmd's nodename
 This problem is related to the impossibility to detect ```runner01```.
+Before running the ```slurmd``` daemon, we need to setup the computing nodes.
+Now our ```slurmctld``` and ```slurmdbd``` are running.
+
+## Configuraiton of the computing node(s)
+Follow instruction from [youtube](https://www.youtube.com/watch?v=Fm5RIE3NSN8&t=322s&pp=ygULc2x1cm0gbXVuZ2U%3D).
 
 ## Useful resources for SLURM management
  - [SLURM cheatsheet](https://www.carc.usc.edu/user-information/user-guides/hpc-basics/slurm-cheatsheet)
