@@ -7,13 +7,13 @@ This post is designed to be updated as soon as new tricks come handy.
 
 ## Useful commands
 
-| Instruction     |                      Command     |
-|-----------------|----------------------------------|
-| Change user     | ```su - <username>```            |
-| Change owner    | ```chown user:group -R folder``` |
-
-
-
+| Instruction                 |                      Command     |
+|-----------------------------|----------------------------------|
+| Change user                 | ```su - <username>```            |
+| Change owner                | ```chown user:group -R folder``` |
+| Check owner & permissions   | ```stat filename```              |
+| List all users with UID     | ```cut -d: -f1,3 /etc/passwd```  |
+| List all groups with GID    | ```getent group``` |
 ## Linux ownership system
 ### rwx
 Owner and permissions: typing ```la``` we get informations about the pemissions about a file or a folder

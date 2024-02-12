@@ -141,10 +141,104 @@ Now our ```slurmctld``` and ```slurmdbd``` are running.
 
 ## Configuraiton of the computing node(s)
 Follow instruction from [youtube](https://www.youtube.com/watch?v=Fm5RIE3NSN8&t=322s&pp=ygULc2x1cm0gbXVuZ2U%3D).
+After the configuration, and running the ```slurmd``` on ```runner01```, the ```slurmctld.log``` file on the ```slurPh``` machine indicates a problem with 
+```
+[2024-02-12T17:57:04.216] error: Node runner01 appears to have a different slurm.conf than the slurmctld.  This could cause issues with communication and functionality.  Please review both files and make sure they are the same.  If this is expected ignore, and set DebugFlags=NO_CONF_HASH in your slurm.conf.
+```
+and most importantly, an authentication problem by Munge
+```
+[2024-02-12T17:57:18.718] error: Munge decode failed: Unauthorized credential for client UID=1003 GID=1003
+```
+We should check 
+```
+munge -n | unmunge
+```
+Both machines return a success code.
+
+runner01:
+```
+STATUS:           Success (0)
+ENCODE_HOST:      runner01.novalocal (10.64.37.114)
+ENCODE_TIME:      2024-02-12 18:02:47 +0100 (1707757367)
+DECODE_TIME:      2024-02-12 18:02:47 +0100 (1707757367)
+TTL:              300
+CIPHER:           aes128 (4)
+MAC:              sha256 (5)
+ZIP:              none (0)
+UID:              centos (1000)
+GID:              centos (1000)
+LENGTH:           0
+```
+slurPh:
+```
+STATUS:           Success (0)
+ENCODE_HOST:      runner01.novalocal (10.64.37.114)
+ENCODE_TIME:      2024-02-12 18:02:47 +0100 (1707757367)
+DECODE_TIME:      2024-02-12 18:02:47 +0100 (1707757367)
+TTL:              300
+CIPHER:           aes128 (4)
+MAC:              sha256 (5)
+ZIP:              none (0)
+UID:              centos (1000)
+GID:              centos (1000)
+LENGTH:           0
+```
+The problem seems to be that UID and GID are not the same in the two machines
+runner01:
+```
+File: /etc/slurm
+Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: fc01h/64513d	Inode: 30103776    Links: 2
+Access: (0777/drwxrwxrwx)  Uid: ( 1001/   slurm)   Gid: ( 1001/   slurm)
+```
+slurPh:
+```
+File: /etc/slurm
+Size: 4096      	Blocks: 8          IO Block: 4096   directory
+Device: fc01h/64513d	Inode: 25439750    Links: 2
+Access: (0755/drwxr-xr-x)  Uid: ( 1003/   slurm)   Gid: ( 1003/   slurm)
+```
+the ```id munge``` command returns, strangely:
+
+runner01:
+```
+uid=991(munge) gid=988(munge) groups=988(munge)
+```
+slurPh:
+```
+uid=991(munge) gid=988(munge) groups=988(munge)
+```
+We need to set the right UID, and change the permissions to ```/etc/munge/munge.key``` on both machines.
+We run ```groupmod -g 1099 munge```, and ```usermod -u 1004 -g 1099 munge```. In order not to have conflicts with other users, we list all users by ```cut -d: -f1,3 /etc/passwd```. To list all groups with GID: ```getent group```.
+With the changed users, the munge daemon fails to start.
+In the log file, we also notice 
+```
+2024-02-12 17:57:18 +0100 Info:      Unauthorized credential for client UID=1003 GID=1003
+```
+previous attempts by slurm user on runner01 (?) to authenticate.
+The change of user created ownership issues on log files and on the PRNG generator folder.
+We fix it by 
+```
+sudo chown munge:munge -R /etc/munge
+sudo chown munge:munge -R /var/lib/munge
+sudo chown munge:munge -R /var/log/munge
+```
+Ok, we still have ```unable to determine this node name```.
+```scontrol ping``` on runner01 still gives 
+```
+Slurmctld(primary) at slurph is DOWN
+```
+There is more: every execution of the ping on runner01 triggers the writing of 
+```
+2024-02-12 18:34:26 +0100 Info:      Unauthorized credential for client UID=1003 GID=1003
+```
+in ```var/log/munge/munged.log```!
 
 ## Useful resources for SLURM management
  - [SLURM cheatsheet](https://www.carc.usc.edu/user-information/user-guides/hpc-basics/slurm-cheatsheet)
  - [SLURM config file generator](https://slurm.schedmd.com/configurator.html)
+- [SLURM official debug guide](https://slurm.schedmd.com/troubleshoot.html)
 ### Other installation guides 
  - [@DISI_computational_pharmacology](https://wiki.docking.org/index.php/Slurm_Installation_Guide)
  - [@niflheim](https://wiki.fysik.dtu.dk/Niflheim_system/Slurm_installation/)
+  
