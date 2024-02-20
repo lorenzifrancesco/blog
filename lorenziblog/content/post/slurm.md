@@ -232,13 +232,50 @@ There is more: every execution of the ping on runner01 triggers the writing of
 ```
 2024-02-12 18:34:26 +0100 Info:      Unauthorized credential for client UID=1003 GID=1003
 ```
-in ```var/log/munge/munged.log```!
+in ```/var/log/munge/munged.log```!
+Error bursts of the corresponding event in ```/var/log/slurm/slurmctld.log``` are like
+```
+[2024-02-12T18:44:00.281] error: Munge decode failed: Unauthorized credential for client UID=1003 GID=1003
+[2024-02-12T18:44:00.281] auth/munge: _print_cred: ENCODED: Thu Jan 01 01:00:00 1970
+[2024-02-12T18:44:00.281] auth/munge: _print_cred: DECODED: Thu Jan 01 01:00:00 1970
+[2024-02-12T18:44:00.281] error: slurm_unpack_received_msg: [[runner01]:50994] auth_g_verify: REQUEST_PING has authentication error: Unspecified error
+[2024-02-12T18:44:00.281] error: slurm_unpack_received_msg: [[runner01]:50994] Protocol authentication error
+[2024-02-12T18:44:00.291] error: slurm_receive_msg [10.64.37.114:50994]: Protocol authentication error
+```
+Note that __unauhtorized__ credential is very different from __invalid__ credentials!
+
+# Change to Ubuntu OS
+Due to the dubious status of CentOS in relationship to RHEL, we switch to Ubuntu. 
+This would allow a clean installation of SLURM to be seamless.
+
+Connection aliases commands to the new instances are, in fish:
+```
+alias runner01="ssh -L2082:10.64.37.221:22 florenzi@gate.cloudveneto.it"
+alias slurPh="ssh -L2081:10.64.37.17:22 florenzi@gate.cloudveneto.it"
+alias connect-slurPh="ssh -p 2081 -i ~/.ssh/certificates/slurPh-key.pem ubuntu@localhost"
+alias connect-runner01="ssh -p 2082 -i ~/.ssh/certificates/slurPh-key.pem ubuntu@localhost"
+```
+
+## slurmdbd.conf
+We need to insert here the credentials to the MySQL database.
+MySQL database is to be managed via SLURM using ```sacct```. 
+For example, for adding a new user, we have 
+```
+sacctmgr create user name=<USERNAME> account=<GROUP>
+```
+## CGroups
+When launching a job, we immediately set the node state to ```drain```, and the log file show
+```
+[2024-02-20T16:06:16.263] error: slurmd error running JobId=50 on node(s)=runner01: Plugin initialization failed
+```
+This is an error related to the Cgroups plugin.
 
 ## Useful resources for SLURM management
- - [SLURM cheatsheet](https://www.carc.usc.edu/user-information/user-guides/hpc-basics/slurm-cheatsheet)
- - [SLURM config file generator](https://slurm.schedmd.com/configurator.html)
+- [SLURM cheatsheet](https://www.carc.usc.edu/user-information/user-guides/hpc-basics/slurm-cheatsheet)
+- [SLURM config file generator](https://slurm.schedmd.com/configurator.html)
 - [SLURM official debug guide](https://slurm.schedmd.com/troubleshoot.html)
 ### Other installation guides 
  - [@DISI_computational_pharmacology](https://wiki.docking.org/index.php/Slurm_Installation_Guide)
  - [@niflheim](https://wiki.fysik.dtu.dk/Niflheim_system/Slurm_installation/)
-  
+### Slides
+- [Utah uni](https://linuxclustersinstitute.org/wp-content/uploads/2021/08/9-Slurm.pdf)
