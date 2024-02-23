@@ -269,6 +269,23 @@ When launching a job, we immediately set the node state to ```drain```, and the 
 [2024-02-20T16:06:16.263] error: slurmd error running JobId=50 on node(s)=runner01: Plugin initialization failed
 ```
 This is an error related to the Cgroups plugin.
+On the runner, we have in ```/var/log/slurmd.log```
+```
+[2024-02-20T16:06:16.269] [50.batch] error: unable to mount memory cgroup namespace: Device or resource busy
+[2024-02-20T16:06:16.269] [50.batch] error: unable to create memory cgroup namespace
+[2024-02-20T16:06:16.269] [50.batch] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2024-02-20T16:06:16.269] [50.batch] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2024-02-20T16:06:16.273] [50.batch] error: unable to mount cpuset cgroup namespace: Device or resource busy
+[2024-02-20T16:06:16.273] [50.batch] error: unable to create cpuset cgroup namespace
+[2024-02-20T16:06:16.273] [50.batch] error: unable to mount memory cgroup namespace: Device or resource busy
+[2024-02-20T16:06:16.273] [50.batch] error: unable to create memory cgroup namespace
+[2024-02-20T16:06:16.273] [50.batch] error: failure enabling memory enforcement: Unspecified error
+[2024-02-20T16:06:16.273] [50.batch] error: Couldn't load specified plugin name for task/cgroup: Plugin init() callback failed
+[2024-02-20T16:06:16.273] [50.batch] error: cannot create task context for task/cgroup
+[2024-02-20T16:06:16.273] [50.batch] error: job_manager: exiting abnormally: Plugin initialization failed
+[2024-02-20T16:06:16.273] [50.batch] sending REQUEST_COMPLETE_BATCH_SCRIPT, error:1011 status:0
+[2024-02-20T16:06:16.275] [50.batch] done with job
+```
 
 ## Useful resources for SLURM management
 - [SLURM cheatsheet](https://www.carc.usc.edu/user-information/user-guides/hpc-basics/slurm-cheatsheet)
