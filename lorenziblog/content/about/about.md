@@ -54,4 +54,6 @@ They are available at my [Google Scholar profile](https://scholar.google.it/cita
 
 - [Quantum Optics and Lasers homework - Mathematics of coherent states and exercises](../docs/QOL.pdf)
 
+#### Projects for B.Sc. 
+- [Optics laboratory projects (4 reports)](../docs/optical.pdf)
 - [B.Sc. thesis - "Dispersione cromatica e non linearità in fibra ottica, un’analisi simulativa"](../docs/tesina.pdf)
