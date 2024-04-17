@@ -24,6 +24,7 @@ fontsize="2"
     menu = [
         {Name = "About", URL = "/about/", HasChildren = false},
         {Name = "Posts", URL = "/post/", Pre = "Recent",HasChildren =false},
+        {Name = "Readings", URL ="/readings/"},
     ]
 
     # Links to your socials.  Comment or delete any you don't need/use. 
