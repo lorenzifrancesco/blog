@@ -2,6 +2,7 @@
 title: "Second quantization of the electromagnetic field"
 date: 2023-10-27
 draft: false
+tag: quantum physics
 ---
 The procedure of quantization of a classical theory has its crucial passage in the promotion of the dynamical variables to operators in the Hilbert space of the quantum states of the system. The quantization is successful if these operators form a complete set of commuting observables (this set is called ICOC). In this case, every quantum state of the system can be expressed as a sum of eigenstates, and we can write the probability amplitudes, and take the averages of all the dynamical variables.
 The quantized description of the electromagnetic field in the vacuum is obtained by expressing the field hamiltonian in a finite volume $V$, and then taking the limit for $V \to \infty$. The promotion to operators is performed by the position and conjugate momentum operators, which are introduced by writing the field hamiltonian in terms of a sum, possibly infinite, of uncoupled harmonic oscillators.
