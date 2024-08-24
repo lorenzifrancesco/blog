@@ -2,6 +2,8 @@
 title: "A clean installation of SLURM scheduler"
 date: 2024-02-11T16:12:36+01:00
 draft: false
+tags: 
+- computer programming
 ---
 ## Desired topology and active services
 ![topology](../../images/slurm/SLURM.jpg)

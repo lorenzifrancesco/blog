@@ -2,6 +2,8 @@
 title: "GN_model_NLI"
 date: 2024-02-20T14:48:54+01:00
 draft: true
+tags: 
+- Photonics and electromagnetics
 ---
 
 The Gaussian Noise model for nonlinear impairments in optical fiber generation is a useful model to compute the amount of nonlinear interference noise (NLI) in an transmission system.

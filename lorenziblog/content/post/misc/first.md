@@ -2,6 +2,8 @@
 title: "Quasistationary modes in optical resonator with moving mirror"
 date: 2023-08-14T19:30:52+02:00
 draft: true
+tags: 
+- electrodynamics
 ---
 
 Based on [Zh. Eksp. Teor. Fiz. __53__, 2123 (1967)]

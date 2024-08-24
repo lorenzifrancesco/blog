@@ -2,6 +2,8 @@
 title: "Linux Admin Tools"
 date: 2024-02-12
 draft: false
+tags: 
+- computer programming
 ---
 This post is designed to be updated as soon as new tricks come handy.
 

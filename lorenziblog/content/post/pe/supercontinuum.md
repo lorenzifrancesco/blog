@@ -2,6 +2,8 @@
 title: "Supercontinuum generation in optical fibers"
 date: 2023-10-27
 draft: true
+tags: 
+- Photonics and electromagnetics
 ---
 
 Inspired by __[G. Marcon, Ph.D. thesis, Università di Padova (2022)]__.

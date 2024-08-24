@@ -2,6 +2,8 @@
 title: "Simple Multiprocessing in Julia"
 date: 2024-03-27T10:28:58+01:00
 draft: false
+tags: 
+- computer programming
 ---
 
 In this short post, we analyze the computation of a two-variable function on a grid, that is a common task for exploring physical properties of systems through phase diagrams, and similar 

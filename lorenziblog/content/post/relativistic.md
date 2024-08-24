@@ -2,6 +2,8 @@
 title: "Longitudinal and transverse relativistic dynamics"
 date: 2024-07-24T18:54:44+02:00
 draft: false
+tags: 
+- classical mechanics
 ---
 A very simple calculation in relativistic dynamics show an impressive aspect that differentiates the momentum change
 due to a force in the direction of movement of the body and the transverse ones.

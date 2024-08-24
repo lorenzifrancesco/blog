@@ -2,6 +2,8 @@
 title: "Simple (but nontrivial) vectorization in Numpy"
 date: 2024-05-09T19:11:37+02:00
 draft: false
+tags: 
+- computer programming
 ---
 
 

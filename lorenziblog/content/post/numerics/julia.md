@@ -2,7 +2,9 @@
 title: "Julia"
 date: 2023-12-18T15:18:36+01:00
 draft: true
-tag: numerics
+tag: 
+- numerics
+- computer programming
 
 ---
 We want to optimize Julia performance through type-inference analysis.

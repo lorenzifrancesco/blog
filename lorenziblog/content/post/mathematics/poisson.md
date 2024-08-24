@@ -2,11 +2,13 @@
 title: "Binomial from Poisson in composite process"
 date: 2023-10-27
 draft: false
+tags: 
+- mathematics
 ---
 
 This is a classical calculation in Poisson processes, indicating how to obtain a binomial variable from two Poisson processes.
 
-Let $X_1(t) \sim \mathcal{P}(\lambda_1 t)$ and $X_2(t) \sim \mathcal{P}(\lambda_2 t)$ be two independent Poisson processes, with parameters $\lambda_1$ and $\lambda_2$ respectively, that can be interpreted as averave arrivals in a second. Let us consider the following conditional
+Let $X_1(t) \sim \mathcal{P}(\lambda_1 t)$ and $X_2(t) \sim \mathcal{P}(\lambda_2 t)$ be two independent Poisson processes, with parameters $\lambda_1$ and $\lambda_2$ respectively, that can be interpreted as arrivals in a second. Let us consider the following conditional
 $$
 \begin{align}
     & P[X_1(t)=k \ | \ X_1(t)+X_2(t) &= n+k]
