@@ -1,6 +1,12 @@
-[submodule "lorenziblog/themes/poison"]
-	path = lorenziblog/themes/poison
-	url = https://github.com/lorenzifrancesco/poison.git
 [submodule "lorenziblog/public"]
 	path = lorenziblog/public
 	url = https://github.com/lorenzifrancesco/lorenzifrancesco.github.io.git
+[submodule "lorenziblog/hugo-PaperMod"]
+	path = lorenziblog/hugo-PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/papermod"]
+	path = themes/papermod
+	url = https://github.com/adityatelange/hugo-PaperMod
+[submodule "lorenziblog/themes/papermod"]
+	path = lorenziblog/themes/papermod
+	url = https://github.com/adityatelange/hugo-PaperMod
