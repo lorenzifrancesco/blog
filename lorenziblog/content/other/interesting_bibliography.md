@@ -20,3 +20,6 @@ A book with which I am in love and have followed me for many years is
 ## Essays
 - *Introduzione alla Cibernetica*, N. Wiener, Bollati Boringhieri (2012)
 - *Vortici e Colori -  alle origini dell'opera di James Clerk Maxwell*, G. Peruzzi, Dedalo (2010)
+
+## Considerazioni semiserie
+- Fare ricerca è come giocare a Cluedo: devi capire chi ha fatto cosa, quando, ed usando che metodo.
