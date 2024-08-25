@@ -25,21 +25,22 @@ They are available at my [Google Scholar profile](https://scholar.google.it/cita
 
 #### Presentations at conferences
 
+- [CAPS24](../docs/CAPS.pdf) Cold Atom Workshop, Barcelona, January 2024 (poster)
+
 - [CMD30](../docs/cmd30.pdf)/FisMat2023 Milan, September 2023
 
 - [ECOC22](../docs/ecoc.pdf) European Conference on Optical Communications, Basel, September 2022
 
-- [CAPS24](../docs/CAPS.pdf) Cold Atom Workshop, Barcelona, January 2024 (poster)
-  
 #### Seminars
 
 - [Matter-wave soliton dynamics \@ BQMC](../docs/bqmc.pdf) (October 2023)
 
-- [Scattering theory \@ Ph.D. course](../docs/scattering.pdf) "Quantum physics with atoms and ions" (April 2023)
-
 - [RG1](../docs/RG1_mixtures_Lorenzi.pdf) Study of the λ and phase separation transitions in 3 He-4 He mixtures @ Ph.D. course "Renormalization Group in Statistical Mechanics" (October 2023)
  
 - [RG2](../docs/RG2_scaling_Lorenzi.pdf) Renormalization group study of first-order phase transitions: scaling properties and finite-size effects @ Ph.D. course "Renormalization Group in Statistical Mechanics" (October 2023)
+
+- [Scattering theory \@ Ph.D. course](../docs/scattering.pdf) "Quantum physics with atoms and ions" (April 2023)
+
 
 #### Curriculum vitae
 
