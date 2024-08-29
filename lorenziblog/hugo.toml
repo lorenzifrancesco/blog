@@ -54,10 +54,5 @@ theme = "papermod"
     pageRef = '/lab'
     weight = 30
 
-
-[homeInfoParams]
-Title = "Hi there wave"
-Content = "Can be Info, links, about..."
-
 [outputs]
 home = ["HTML", "RSS", "JSON"]  # necessary for search
