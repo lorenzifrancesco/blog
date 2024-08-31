@@ -10,3 +10,4 @@ draft: false
 
 ### Information theory
 - *Information theory, inference and learning algorithms*,  D. J. C. MacKay. 
+- *Elements of information theory*, T.M. Cover, A.M. Thomas.

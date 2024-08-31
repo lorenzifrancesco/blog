@@ -10,7 +10,6 @@ Here I collect some interesting bibliography in physics, that I have read or I a
 A book with which I am deeply in love and have followed me for many years is 
 - *Electromagnetic Waves*, C. G. Someda.
 
-
 ### Quantum optics and noise
 - *Quantum noise - a Handbook of Markovian and Non-Markovian methods with Applications to Quantum Optics*, C. W. Gardiner and P. Zoller.
 - *Elements of Quantum Optics*, P. Meystre and M. Sargent III.
