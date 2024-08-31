@@ -47,12 +47,12 @@ Substituting into Hemholtz equation, and approximating $C$ as a slowly varying f
 $$
 |\nabla S|^2 = n^2.
 $$
-Introducing a curvilinear coordinate $\mathbf{u}$ (the ray coordinate), with versor $\hat{u} = \frac{d\mathbf{u}}{d\mathbf{r}}$. $\hat{u}$ is everywhere normal to the constant-phase surface, therefore, 
+Introducing a curvilinear coordinate $u$ (the coordinate along the ray), with versor $\hat{u} = \frac{d u}{d\mathbf{r}}$. The versor $\hat{u}$ is everywhere normal to the constant-phase surface, therefore, 
 $$
 \nabla S = n \hat{u},
 $$
 from which, after some vector algebra (Someda sec. 5.4), we can derive the *ray equation*,
 $$
-\frac{d}{d\mathbf{u}} \left(n\frac{d\mathbf{r}}{d\mathbf{u}}\right) = \nabla n.
+\frac{d}{du} \left(n\frac{d\mathbf{r}}{du}\right) = \nabla n.
 $$
 We can solve for rays in both the original and the mapped problem! Also, the mapping function $w(z)$ can have branch cuts, and therefor it can be interesting to see what happens to rays going through Riemann sheets of the mapped space.
