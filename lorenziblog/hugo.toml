@@ -11,12 +11,12 @@ theme = "papermod"
   defaultTheme = "dark" # default theme (dark, light, auto)
   showReadingTime = true # show estimated reading time
   showPostNavLinks = true # show next/prev post navigation links
-  showShareButtons = false # show social media share buttons
   useHugoToc = true # use Hugo's built-in Table of Contents
   math = true
   ShowCodeCopyButtons = true
   ShowBreadCrumbs = true
   ShowToc=true
+  social =true
 
 [markup]
   [markup.highlight]
