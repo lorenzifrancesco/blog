@@ -59,3 +59,6 @@ They are available at my [Google Scholar profile](https://scholar.google.it/cita
 #### Projects for B.Sc. 
 - [Optics laboratory](../docs/optical.pdf) projects (4 reports)
 - [B.Sc. thesis](../docs/tesina.pdf) - "Dispersione cromatica e non linearità in fibra ottica, un’analisi simulativa"
+
+
+<div id="sfc8jr97ap3p1f55qhq7yrzsyd2d4fb62rk"></div><script type="text/javascript" src="https://counter2.optistats.ovh/private/counter.js?c=8jr97ap3p1f55qhq7yrzsyd2d4fb62rk&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="website counter widget"><img src="https://counter2.optistats.ovh/private/freecounterstat.php?c=8jr97ap3p1f55qhq7yrzsyd2d4fb62rk" border="0" title="website counter widget" alt="website counter widget"></a></noscript>

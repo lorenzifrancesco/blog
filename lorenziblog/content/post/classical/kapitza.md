@@ -32,4 +32,7 @@ $$
 \ddot{\tilde{\phi}} = -\frac{1}{L}(g+A\omega^2\cos(\omega t))\sin\phi_0 \tilde{\phi}
 $$
 that is a Mathieu equation.
-[to be continued...]
+
+How to analyze the behaviour of the Mathieu equation?
+
+Alternatively, as found in the book of Landau
