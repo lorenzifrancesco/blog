@@ -3,8 +3,9 @@ title: ""
 date: 
 draft: false
 ---
-
 # Welcome to my projects page!
+
+<img src="/images/email.jpg" alt="Nice pic" style="width:30%; float:right; margin:1rem;">
  I'm a passionate Ph.D. student of Theoretical Physics of Matter, at the department of Physics and Astronomy of University of Padova.
 I have background in optics and photonics for telecommunications.
 

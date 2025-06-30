@@ -8,7 +8,8 @@ theme = "papermod"
 
 # PaperMod specific settings
 [params]
-  defaultTheme = "dark" # default theme (dark, light, auto)
+  defaultTheme = "light" # default theme (dark, light, auto)
+  disableThemeToggle =  true
   showReadingTime = true # show estimated reading time
   showPostNavLinks = true # show next/prev post navigation links
   useHugoToc = true # use Hugo's built-in Table of Contents
@@ -17,10 +18,13 @@ theme = "papermod"
   ShowBreadCrumbs = true
   ShowToc=true
   social =true
+  
+[params.assets]
+  css = ["css/custom.css"]
 
 [markup]
   [markup.highlight]
-    style = "monokai"
+    # style = "monokai"
   [markup.tableOfContents]
     startLevel = 1
     endLevel = 3
@@ -55,6 +59,10 @@ theme = "papermod"
   [[menus.main]]
     name = 'Sunday mornings in the lab'
     pageRef = '/lab'
+    weight = 30
+  [[menus.main]]
+    name = 'Search'
+    pageRef = '/search.md'
     weight = 30
 
 [outputs]
