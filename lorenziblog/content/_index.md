@@ -7,18 +7,17 @@ draft: false
 
 <img src="/images/email.jpg" alt="Nice pic" style="width:30%; float:right; margin:1rem;">
  I'm a passionate Ph.D. student of Theoretical Physics of Matter, at the department of Physics and Astronomy of University of Padova.
-I have background in optics and photonics for telecommunications.
+I have background in photonics for telecommunications.
 
 My current research interests are in theoretical physics of matter: 
-- solitons and their stability in classical and quantum field theories 
-- highly nonlinear phenomena in Bose-Einstein condensates, Josephson oscillations
-
-Due to my background in photonic engineering and ICT, I'm also interested in 
-- classical and quantum optical communications in optical fibers
+- solitons and their stability in classical and quantum field theories
+- nonlinear phenomena in Bose-Einstein condensates, Josephson oscillations
 - nonlinear fiber optics
-- microwave engineering
 
-Other personal interests are philosophy of science, post-structuralism, science and technology studies (STS), music.
+I am also interested in:
+- classical and quantum optical communications in optical fibers
+
+My personal interests are philosophy of science, RF and microwave electronics, and music. Over the years I built an electronics lab, and lately I got the amateur radio operator license with callsign [IU3UHF](https://www.qsl.net/iu3uhf).
 
 #### Recent publications
 

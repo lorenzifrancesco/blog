@@ -56,10 +56,10 @@ theme = "papermod"
     name = 'Readings'
     pageRef = '/readings'
     weight = 30
-  [[menus.main]]
-    name = 'Sunday mornings in the lab'
-    pageRef = '/lab'
-    weight = 30
+  # [[menus.main]]
+  #   name = 'Sunday mornings in the lab'
+  #   pageRef = '/lab'
+  #   weight = 30
   [[menus.main]]
     name = 'Search'
     pageRef = '/search.md'
