@@ -6,18 +6,20 @@ draft: false
 # Welcome to my projects page!
 
 <img src="/images/email.jpg" alt="Nice pic" style="width:30%; float:right; margin:1rem;">
- I'm a passionate Ph.D. student of Theoretical Physics of Matter, at the department of Physics and Astronomy of University of Padova.
-I have background in photonics for telecommunications.
+I'm a Postdoctoral researcher in Photonics and Electromagnetics at the department of Information Engineering of the University of Padova.
+I was a Ph.D. student of Theoretical Physics of Matter up to September 2025, and will graduate next year.
 
-My current research interests are in theoretical physics of matter: 
+My current research interests are in photonic devices and theoretical aspects of light propagation:
+- propagation in hollow-core fibers
+- guided slow light and electromagnetic induced transparency
+- nonlinear effects on guided propagation and on optical signal transmission
+
+I am also interested in 
 - solitons and their stability in classical and quantum field theories
 - nonlinear phenomena in Bose-Einstein condensates, Josephson oscillations
 - nonlinear fiber optics
 
-I am also interested in:
-- classical and quantum optical communications in optical fibers
-
-My personal interests are philosophy of science, RF and microwave electronics, and music. Over the years I built an electronics lab, and lately I got the amateur radio operator license with callsign [IU3UHF](https://www.qsl.net/iu3uhf).
+My personal interests are mathematics, especially analysis and geometry, philosophy of science, RF and microwave electronics, and music. Over the years I built an electronics lab, and lately I got the amateur radio operator license with callsign [IU3UHF](see also my website where I collect experiments I do in my lab over the weekends https://www.qsl.net/iu3uhf).
 
 #### Recent publications
 
