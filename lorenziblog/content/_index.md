@@ -13,13 +13,14 @@ My current research interests are in photonic devices and theoretical aspects of
 - propagation in hollow-core fibers
 - guided slow light and electromagnetic induced transparency
 - nonlinear effects on guided propagation and on optical signal transmission
+- geometric algebra for classical electrodynamics
 
 I am also interested in 
 - solitons and their stability in classical and quantum field theories
 - nonlinear phenomena in Bose-Einstein condensates, Josephson oscillations
-- nonlinear fiber optics
 
-My personal interests are mathematics, especially analysis and geometry, philosophy of science, RF and microwave electronics, and music. Over the years I built an electronics lab, and lately I got the amateur radio operator license with callsign [IU3UHF](see also my website where I collect experiments I do in my lab over the weekends https://www.qsl.net/iu3uhf).
+My personal interests are mathematics, especially analysis and geometry, philosophy of science, RF and microwave electronics, and music. 
+Over the years I built an electronics lab, and lately I got the amateur radio operator license with callsign [IU3UHF](see also my website where I collect experiments I do in my lab over the weekends https://www.qsl.net/iu3uhf).
 
 #### Recent publications
 
