@@ -26,53 +26,41 @@ Since we are in a limited volume of space, we can impose a periodic boundary con
 We choose to express the component plane waves as linearly polarized waves. This does not affect the generality of the procedure, as other polarizations can be expressed as sums of linearly polarized waves, with appropriate phase shifts.
 Let therefore $\mathbf{k}$ be the wave vector, and $s$ the linear polarization ($s \in \{\alpha, \beta\}$ where $\alpha, \beta$ are two possible orthogonal polarizations given the wave vector $\mathbf{k}$).
 We have that  
-
 $$
     \mathbf{A} = \sum_{\mathbf{k}s} A_{\mathbf{k}s}(t) e^{i \mathbf{k} \cdot \mathbf{r}} \, \hat{\epsilon}_{\mathbf{k}s},
 $$
 where $\hat{\epsilon}_{\mathbf{k}s}$ is the unit vector of the field, parallel to the polarization.
 Furthermore the field $\mathbf{A}$ must be real, so we have the condition 
-
 $$
     A_{-\mathbf{k}s}(t) = A_{\mathbf{k}s}^*(t).
 $$
 By imposing this condition, unless we redefine the terms $A_{\mathbf{k}s}$ by halving them, we can rewrite the sum as
-
 $$
     \mathbf{A} = \sum _{\mathbf{k}s} A _{\mathbf{k}s}(t) e^{i \mathbf{k} \cdot \mathbf{r}} +  A^* _{\mathbf{k}s}(t) e^{-i \mathbf{k} \cdot \mathbf{r}} \hat{\epsilon} _{\mathbf{k}s}.
 $$
-
 Substituting the following condition
-
 $$
     \ddot{A} _{\mathbf{k}s}(t) + \omega _\mathbf{k}^2  A _{\mathbf{k}s}(t) = 0,
 $$
-
 with the __dispersion relation__
-
 $$
     \omega_\mathbf{k} = c |\mathbf{k}|.
 $$
 Since $\omega$, in the vacuum, depends only on the modulus $|\mathbf{k}| =: k$ we can also write $\omega_k$ for simplicity.
 So the equation is solved as 
-
 $$
         A_{\mathbf{k}s}(t) = A_{\mathbf{k}s}(0) e^{-\omega_k t}.
 $$
-
 We now computer the Hamiltonian in terms of this Fourier expansion of the fields
-
 $$
         H = \int_{V}dV \dfrac{1}{2}\varepsilon_0 |\dfrac{\partial}{\partial t} \mathbf{A}|^2 + \dfrac{1}{2\mu_0}|\nabla \times \mathbf{A}|^2.
 $$
  In this way we obtain
-
 $$
     H = \sum_{\mathbf{k}s} \varepsilon_0 \omega_k^2 ( A_{\mathbf{k}s}(t) A_{\mathbf{k}s}^* (t) + A_{\mathbf{k}s}^{*} (t) A_{\mathbf{k}s}(t)) ,
 $$
 we notice that this Hamiltonian is independent of time, since the terms $A_{\mathbf{k}s}(t)A_{\mathbf{k}s}^* (t)$ and the complex conjugate are. For brevity we can simply write $A_{\mathbf{k}s} A_{\mathbf{k}s}^* $.
 We introduce the adimensional variables $a_{\mathbf{k}s}$, and $a_{\mathbf{k}s}^*$ in such a way that
-
 $$ 
 \begin{align}
     A_{\mathbf{k}s} &= \sqrt{\dfrac{\hslash}{2\epsilon_0 \omega_k}} a_{\mathbf{k}s} \\\

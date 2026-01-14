@@ -3,7 +3,7 @@ title: "Poisson-Boltzmann equation"
 date: 2025-02-28
 draft: false
 tags: 
-- classical mechanics
+- Classical mechanics
 ---
 How are the ions in a solution distributed in a region of space subjected to an external electric field? The Poisson-Boltzmann equation gives us a way to answer this question.
 The equation is basically the Poisson equation from electrostatics

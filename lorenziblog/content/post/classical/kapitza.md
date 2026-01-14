@@ -3,10 +3,10 @@ title: "The Kapitza pendulum"
 date: 2024-02-11
 draft: false
 tags: 
-- classical mechanics
+- Classical mechanics
 ---
 
-The Kapitza pendulum is a model in classical mechanics that exhibits counterintuitive behaviour. It is a pendulum with a pivot point that oscillates vertically. 
+The Kapitza pendulum is a model in Classical mechanics that exhibits counterintuitive behaviour. It is a pendulum with a pivot point that oscillates vertically. 
 
 ![Normal pendulum and Kapitza pendulum](../../../images/kapitza/kapitza.jpg)
 
@@ -34,5 +34,4 @@ $$
 that is a Mathieu equation.
 
 How to analyze the behaviour of the Mathieu equation?
-
-Alternatively, as found in the book of Landau
+To be continued...

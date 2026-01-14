@@ -69,6 +69,6 @@ They are available at my [Google Scholar profile](https://scholar.google.it/cita
 
 
 My personal interests are mathematics, especially analysis and geometry, philosophy of science, RF and microwave electronics, and music. 
-Over the years I built an electronics lab, and lately I got the amateur radio operator license with callsign [IU3UHF](see also my website where I collect experiments I do in my lab over the weekends https://www.qsl.net/iu3uhf).
+Over the years I built an electronics lab, and lately I got the amateur radio operator license with callsign IU3UHF (see also my website where I collect experiments I do in my lab over some weekends [www.qsl.net/iu3uhf/](https://www.qsl.net/iu3uhf/)).
 
 <div id="sfc8jr97ap3p1f55qhq7yrzsyd2d4fb62rk"></div><script type="text/javascript" src="https://counter2.optistats.ovh/private/counter.js?c=8jr97ap3p1f55qhq7yrzsyd2d4fb62rk&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="website counter widget"><img src="https://counter2.optistats.ovh/private/freecounterstat.php?c=8jr97ap3p1f55qhq7yrzsyd2d4fb62rk" border="0" title="website counter widget" alt="website counter widget"></a></noscript>

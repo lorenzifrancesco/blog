@@ -3,7 +3,7 @@ title: "Binomial from Poisson in composite process"
 date: 2023-10-27
 draft: false
 tags: 
-- mathematics
+- Mathematics
 ---
 
 This is a classical calculation in Poisson processes, indicating how to obtain a binomial variable from two Poisson processes.

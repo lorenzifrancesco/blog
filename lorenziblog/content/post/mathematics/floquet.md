@@ -3,7 +3,7 @@ title: "Elementary view on Floquet (and Bloch) theory"
 date: 2024-09-01
 draft: true
 tags: 
-- mathematics
+- Mathematics
 ---
 
 Floquet theory gives us properties of the solution of a linear ODE that contains periodic terms. For example, the Mathieu equation

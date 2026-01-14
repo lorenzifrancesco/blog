@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "CMU Serif";
+  src:
+    url("/fonts/cmu/CMUSerif-Roman.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CMU Serif";
+  src:
+    url("/fonts/cmu/CMUSerif-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CMU Serif";
+  src:
+    url("/fonts/cmu/CMUSerif-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CMU Serif";
+  src:
+    url("/fonts/cmu/CMUSerif-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CMU Typewriter";
+  src:
+    url("/fonts/cmu/CMUTypewriter-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CMU Typewriter";
+  src:
+    url("/fonts/cmu/CMUTypewriter-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CMU Typewriter";
+  src:
+    url("/fonts/cmu/CMUTypewriter-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CMU Typewriter";
+  src:
+    url("/fonts/cmu/CMUTypewriter-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --font-body: "CMU Serif", "Computer Modern Serif", "Computer Modern",
+    "Latin Modern Roman", "Times New Roman", serif;
+  --font-mono: "CMU Typewriter", "Computer Modern Typewriter",
+    "Latin Modern Mono", "Courier New", monospace;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.1;
+}
+
+code,
+pre,
+kbd,
+samp {
+  font-family: var(--font-mono);
+}
+
+.post-content p,
+.entry-content p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.post-content li p,
+.entry-content li p {
+  text-align: left;
+}
+
+.katex {
+  font-size: 0.95em;
+}

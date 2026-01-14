@@ -20,7 +20,7 @@ theme = "papermod"
   social =true
   
 [params.assets]
-  css = ["css/custom.css"]
+  css = ["css/extended/custom.css"]
 
 [markup]
   [markup.highlight]

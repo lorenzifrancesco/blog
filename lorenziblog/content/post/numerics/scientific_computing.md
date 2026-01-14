@@ -3,7 +3,7 @@ title: "Scientific Computing"
 date: 2023-12-18T15:43:29+01:00
 draft: true
 tags: 
-- computer programming
+- Computer programming
 ---
 Suppose to have the need to build .
 ## The two-language problem
