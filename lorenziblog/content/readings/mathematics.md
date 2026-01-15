@@ -14,3 +14,6 @@ draft: false
 
 ### Algebra
 - Lang, Serge. *Algebra*. Springer Science & Business Media, 2012.
+
+### Asymptotic and perturbative methods
+- Bender, Carl M., and Steven A. Orszag. _Advanced Mathematical Methods for Scientists and Engineers I: Asymptotic Methods and Perturbation Theory_. Springer Science & Business Media, 2013.
