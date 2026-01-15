@@ -4,7 +4,8 @@ date: 2023-10-30
 draft: false
 ---
 
-Here I collect some interesting bibliography in physics, that I have enjoyed reading, or I am reading in this moment.
+Here I collect some interesting bibliography in physics, that I have enjoyed reading, or I am reading in this moment. A lot of them are missing to the list, I will update it from time to time. 
+Hope this inspires you some nice readings!
 
 ### Photonics and Electromagnetics
 A book with which I am deeply in love and have followed me for many years is 
