@@ -16,6 +16,7 @@ A book with which I am deeply in love and have followed me for many years is
 - Mandel, Leonard, and Emil Wolf. _Optical Coherence and Quantum Optics_. Cambridge University Press, 1995.
 - Meystre, Pierre, and Murray Sargent. _Elements of Quantum Optics_. Springer Science & Business Media, 2007.
 - Barnett, Stephen, and Paul M. Radmore. _Methods in Theoretical Quantum Optics_. Clarendon Press, 2002.
+- Loudon, Rodney. _The Quantum Theory of Light_. OUP Oxford, 2000.
 ## Condensed Matter Physics 
 - Mahan, Gerald D. _Many-Particle Physics_. Springer Science & Business Media, 2013.
 - Svistunov, Boris V., Egor S. Babaev, and Nikolay V. Prokof’ev. _Superfluid States of Matter_. CRC Press, 2015.
