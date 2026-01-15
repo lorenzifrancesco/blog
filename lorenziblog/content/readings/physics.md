@@ -15,7 +15,7 @@ A book with which I am deeply in love and have followed me for many years is
 - Gardiner, Crispin, and Peter Zoller. _Quantum Noise: A Handbook of Markovian and Non-Markovian Quantum Stochastic Methods with Applications to Quantum Optics_. Springer Science & Business Media, 2004.
 - Mandel, Leonard, and Emil Wolf. _Optical Coherence and Quantum Optics_. Cambridge University Press, 1995.
 - Meystre, Pierre, and Murray Sargent. _Elements of Quantum Optics_. Springer Science & Business Media, 2007.
-
+- Barnett, Stephen, and Paul M. Radmore. _Methods in Theoretical Quantum Optics_. Clarendon Press, 2002.
 ## Condensed Matter Physics 
 - Mahan, Gerald D. _Many-Particle Physics_. Springer Science & Business Media, 2013.
 - Svistunov, Boris V., Egor S. Babaev, and Nikolay V. Prokof’ev. _Superfluid States of Matter_. CRC Press, 2015.
