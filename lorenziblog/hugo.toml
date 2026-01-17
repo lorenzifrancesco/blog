@@ -21,6 +21,9 @@ theme = "papermod"
   
 [params.assets]
   css = ["css/extended/custom.css"]
+  favicon = "fava.png"
+  favicon16x16 = "fava.png"
+  favicon32x32 = "fava.png"
 
 [markup]
   [markup.highlight]
@@ -52,6 +55,10 @@ theme = "papermod"
     name = 'Archive'
     pageRef = '/post'
     weight = 3
+  [[menus.main]]
+    name = 'Pics'
+    pageRef = '/pics.md'
+    weight = 20
   [[menus.main]]
     name = 'Readings'
     pageRef = '/readings'
