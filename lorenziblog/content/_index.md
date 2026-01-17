@@ -7,23 +7,31 @@ draft: false
 
 <img src="/images/email.jpg" alt="Nice pic" style="width:30%; float:right; margin:1rem;">
 I'm a Postdoctoral researcher in Photonics and Electromagnetics at the department of Information Engineering of the University of Padova.
-I was a Ph.D. student of Theoretical Physics of Matter up to September 2025, and will graduate in March this year.
 
-My current research interests are in photonic devices and theoretical aspects of light propagation:
-- propagation in hollow-core fibers
-- guided slow light and electromagnetic induced transparency
-- nonlinear effects on guided propagation and on optical signal transmission
-- geometric algebra for classical electrodynamics
-- optical solitons
+My current research interests are in theoretical aspects of light propagation and the usage of methods from quantum mechanics to understand photonic phenomena.
+I'm currently working on:
+- material and structural slow light,
+- nonlinear effects in waveguides,
+- geometric algebra for classical electrodynamics,
+- optical solitons.
 
-I am also interested in 
-- soliton theory in classical and quantum field theories
-- nonlinear phenomena in Bose-Einstein condensates, Josephson oscillations
+I also sometimes like to get my hands dirty with implementation details and technology, even if I don't have experimental research going on directly, so I perform realistic simulations. In particular:
+- evaluation of noise in high throughput optical communications,
+- the same thing as above, but in presence of QKD channels. 
 
+I did my Ph.D. in Theoretical Physics of Matter (I finished in September 2025), during which I worked on:
+- matter-wave solitons,
+- other nonlinear phenomena in Bose-Einstein condensates, like Josephson oscillations,
+- quantum scattering theory for ultracold atomic collisions.
+
+If you have a curiosity about any of these topics, feel free to contact me at [my email](mailto:francesco.lorenzi.2@phd.unipd.it).
 #### Recent publications
 
-They are available at my [Google Scholar profile](https://scholar.google.it/citations?user=zZfA3VcAAAAJ&hl=en&oi=ao) 
+They are available at my [Google Scholar profile](https://scholar.google.it/citations?user=zZfA3VcAAAAJ&hl=en&oi=ao).
 
+#### Open software repositories
+
+Over the years I collected quite a number of software repositories for various scientific applications, in different programming languages, mainly Julia, Python and Rust. They are collected in my [GitHub profile](https://github.com/lorenzifrancesco). 
 #### Presentations at conferences
 
 - [Bad Honnef 2025](../docs/badHonnef2025.pdf) Bad Honnef physics school on Ultracold Quantum Matter, August 2025 ([poster](../docs/badHonnefposter.pdf) + flash presentation) 4 3 2
