@@ -44,7 +44,7 @@ Over the years I collected quite a number of software repositories for various s
 
 #### Seminars
 
-- [A couple of algorithms for numerical optics: Gerchberg–Saxton phase retrieval and “Fast” Hankel transform] (../docs/peg-presentation.pdf) PEG meeting presentation (to be given in 2026).
+- [A couple of algorithms for numerical optics: Gerchberg–Saxton phase retrieval and “Fast” Hankel transform](../docs/peg-presentation.pdf) PEG meeting presentation (to be given in 2026).
 
 - [Matter-wave soliton dynamics \@ BQMC](../docs/bqmc.pdf) (October 2023)
 
