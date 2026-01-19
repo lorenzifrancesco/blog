@@ -44,6 +44,8 @@ Over the years I collected quite a number of software repositories for various s
 
 #### Seminars
 
+- [A couple of algorithms for numerical optics: Gerchberg–Saxton phase retrieval and “Fast” Hankel transform] (../docs/peg-presentation.pdf) PEG meeting presentation (to be given in 2026).
+
 - [Matter-wave soliton dynamics \@ BQMC](../docs/bqmc.pdf) (October 2023)
 
 - [RG1](../docs/RG1_mixtures_Lorenzi.pdf) Study of the λ and phase separation transitions in 3 He-4 He mixtures @ Ph.D. course "Renormalization Group in Statistical Mechanics" (October 2023)
