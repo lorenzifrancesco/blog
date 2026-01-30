@@ -32,9 +32,11 @@ They are available at my [Google Scholar profile](https://scholar.google.it/cita
 #### Open software repositories
 
 Over the years I collected quite a number of software repositories for various scientific applications, in different programming languages, mainly Julia, Python and Rust. They are collected in my [GitHub profile](https://github.com/lorenzifrancesco). 
-#### Presentations at conferences
+#### Presentations at conferences and workshops
 
-- [Bad Honnef 2025](../docs/badHonnef2025.pdf) Bad Honnef physics school on Ultracold Quantum Matter, August 2025 ([poster](../docs/badHonnefposter.pdf) + flash presentation) 4 3 2
+- [QSnow-QTech 2026](../docs/poster-QTech2.pdf) QSnow-QTech workshop, January 2026 (poster).
+
+- [Bad Honnef 2025](../docs/badHonnef2025.pdf) Bad Honnef physics school on Ultracold Quantum Matter, August 2025 ([poster](../docs/badHonnefposter.pdf) + flash presentation)
 
 - [CAPS24](../docs/CAPS.pdf) Cold Atom Workshop, Barcelona, January 2024 (poster)
 
