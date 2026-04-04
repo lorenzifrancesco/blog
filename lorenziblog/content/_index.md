@@ -56,10 +56,11 @@ Over the years I collected quite a number of software repositories for various s
 
 - [Scattering theory \@ Ph.D. course](../docs/scattering.pdf) "Quantum physics with atoms and ions" (April 2023)
 
+- Within the [FNIP initiative](https://fnip.dfa.unipd.it), I co-organized the seminar "Open source tools for classical and quantum optics" (October 2025) and the FNIPday 2026 (March 2026).
 
 #### Curriculum vitae
 
-- [CV](../docs/CV.pdf) 2025
+- [CV](../docs/CV.pdf) April 2026
 
 #### Projects from M.Sc.
 

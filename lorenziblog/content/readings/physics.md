@@ -30,3 +30,8 @@ A book with which I am deeply in love and have followed me for many years is
 - Matveev, Vladimir B., and Mikhail A. Salle. *Darboux Transformations and Solitons*. Springer Berlin Heidelberg, 1992.
 - Whitham, G. B. Linear and Nonlinear Waves. John Wiley & Sons, 2011.
 - Sulem, Catherine, and Pierre-Louis Sulem. _The Nonlinear Schrödinger Equation: Self-Focusing and Wave Collapse_. Springer Science & Business Media, 2007.
+
+
+## Other resources
+
+Some other nice things can be found online:, for example [https://www.damtp.cam.ac.uk/user/tong/talks/talk.pdf](https://www.damtp.cam.ac.uk/user/tong/talks/talk.pdf)
