@@ -76,7 +76,7 @@ Over the years I collected quite a number of software repositories for various s
 
 #### Projects for B.Sc. 
 
-- [Optics laboratory](../docs/optical.pdf) projects (4 reports)
+- Optics laboratory projects ([1](../docs/1_Doppietto.pdf), [2](../docs/2_RNG.pdf), [3](../docs/3_Telescopi.pdf), [4](../docs/4_Coatings.pdf))
 
 - [B.Sc. thesis](../docs/tesina.pdf) - "Dispersione cromatica e non linearità in fibra ottica, un’analisi simulativa"
 
