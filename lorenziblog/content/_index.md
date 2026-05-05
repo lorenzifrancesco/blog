@@ -60,7 +60,7 @@ Over the years I collected quite a number of software repositories for various s
 
 #### Curriculum vitae
 
-- [CV](../docs/CV.pdf) April 2026
+- [CV](../docs/academic_cv_lorenzi.pdf) April 2026
 
 #### Projects from M.Sc.
 
