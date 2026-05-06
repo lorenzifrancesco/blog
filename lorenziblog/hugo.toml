@@ -8,6 +8,7 @@ theme = "papermod"
 
 # PaperMod specific settings
 [params]
+  author = "Francesco Lorenzi"
   defaultTheme = "light" # default theme (dark, light, auto)
   disableThemeToggle =  true
   showReadingTime = true # show estimated reading time
