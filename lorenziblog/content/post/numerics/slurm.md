@@ -6,7 +6,7 @@ tags:
 - Computer programming
 ---
 ## Desired topology and active services
-![topology](../../images/slurm/SLURM.jpg)
+![topology](/images/slurm/SLURM.jpg)
 
 ## SLURM super quick start guide 
 The guide is available [here](https://slurm.schedmd.com/quickstart_admin.html).

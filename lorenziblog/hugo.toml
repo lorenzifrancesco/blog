@@ -12,13 +12,15 @@ theme = "papermod"
   defaultTheme = "light" # default theme (dark, light, auto)
   disableThemeToggle =  true
   showReadingTime = true # show estimated reading time
+  hideMeta = true
   showPostNavLinks = true # show next/prev post navigation links
-  useHugoToc = true # use Hugo's built-in Table of Contents
+  useHugoToc = false # use Hugo's built-in Table of Contents
   math = true
   ShowCodeCopyButtons = true
   ShowBreadCrumbs = true
-  ShowToc=true
+  ShowToc=false
   social =true
+  mainSections = []
   
 [params.assets]
   css = ["css/extended/custom.css"]
@@ -46,32 +48,24 @@ theme = "papermod"
 [menus]
   [[menus.main]]
     name = 'Home'
-    pageRef = '/about.md'
+    pageRef = '/'
     weight = 1
   [[menus.main]]
-    name = 'Posts'
-    pageRef = '/tags.md'
+    name = 'Bio'
+    pageRef = '/bio.md'
     weight = 2
   [[menus.main]]
-    name = 'Archive'
-    pageRef = '/post'
+    name = 'Research'
+    pageRef = '/research.md'
     weight = 3
   [[menus.main]]
-    name = 'Pics'
-    pageRef = '/pics.md'
-    weight = 20
+    name = 'Talks and seminars'
+    pageRef = '/talks.md'
+    weight = 4
   [[menus.main]]
-    name = 'Readings'
-    pageRef = '/readings'
-    weight = 30
-  # [[menus.main]]
-  #   name = 'Sunday mornings in the lab'
-  #   pageRef = '/lab'
-  #   weight = 30
-  [[menus.main]]
-    name = 'Search'
-    pageRef = '/search.md'
-    weight = 30
+    name = 'Scientific posts'
+    pageRef = '/posts.md'
+    weight = 5
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]  # necessary for search

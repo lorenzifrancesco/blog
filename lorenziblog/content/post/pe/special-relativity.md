@@ -52,4 +52,4 @@ $$
 
 The usage of the Smith chart is well established in electromagnetic engineering. We prove now that it can be utilized also for making calculations in 1+1D problems in special relativistic mechanics.
 
-![alt text](../../images/lorentz-line/image.png)
+![alt text](/images/lorentz-line/image.png)

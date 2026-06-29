@@ -1,12 +1,6 @@
 ---
-title: "Posts Overview"
+title: "Scientific posts"
 date: 2024-08-24
+layout: "posts-list"
 ---
-
-- [Classical Mechanics](/post/classical)
-
-- [Quantum mechanics](/content/post/quantum)
-
-- [Mathematics](/content/post//Mathematics)
-- [Numerics](/content/post/numerics)
-- [Photonics and Electromagnetics](/content/post/pe)
+Here I collect my scientific and technical notes, ordered from newest to oldest.
