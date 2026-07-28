@@ -74,5 +74,8 @@ A book with which I am deeply in love and has followed me for many years is
 ## Links and curiosities
 
 - [refractiveindex.info](https://refractiveindex.info/), a curated database of optical constants and refractive-index data for many materials.
+- [NIST Digital Library of Mathematical Functions](https://dlmf.nist.gov/), an authoritative reference for special functions, asymptotic expansions, identities, and numerical methods.
+- David Tong, [_Lecture notes_](https://www.damtp.cam.ac.uk/user/tong/teaching.html), a collection of clear theoretical-physics notes on fields, quantum theory, statistical physics, cosmology, and related topics.
 - David Tong, [_Theoretical physics talks_](https://www.damtp.cam.ac.uk/user/tong/talks/talk.pdf).
+- [Microwaves101](https://www.microwaves101.com/), a practical reference for microwave engineering, RF components, transmission lines, and high-frequency design.
 - Accademia della Crusca, [_Sottomettere e consistenza: due anglicismi sotto traccia_](https://accademiadellacrusca.it/it/consulenza/sottomettere-e-consistenza-due-anglicismi--sotto-traccia/1095).
