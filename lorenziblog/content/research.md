@@ -49,3 +49,5 @@ Some relevant publications:
 ## Software
 
 Over the years I collected repositories for scientific applications in Julia, Python, Rust, and other languages. They are available on my [GitHub profile](https://github.com/lorenzifrancesco).
+
+- [Optical Ashby Explorer](/optical-ashby/) is an experimental static browser build for exploring source-resolved optical material data.
