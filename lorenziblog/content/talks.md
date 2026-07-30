@@ -15,6 +15,7 @@ draft: false
 
 ### Seminars
 
+- [*Nonlinear physics of ultracold quantum gases and optical fields in media*](/docs/phd-defense-presentation.pdf), Ph.D. thesis defense, University of Padova, 25 March 2026.
 - [*A couple of algorithms for numerical optics: Gerchberg-Saxton phase retrieval and "Fast" Hankel transform*](/docs/peg-presentation.pdf), PEG meeting presentation, to be given in 2026.
 - [*Matter-wave soliton dynamics @ BQMC*](/docs/bqmc.pdf), October 2023.
 - [*Study of the lambda and phase separation transitions in 3He-4He mixtures*](/docs/RG1_mixtures_Lorenzi.pdf), Ph.D. course *Renormalization Group in Statistical Mechanics*, October 2023.
