@@ -162,6 +162,8 @@ a {
 .post-content a,
 .entry-content a {
   color: #8b1a1a;
+  box-shadow: none;
+  text-decoration: none;
 }
 
 .post-content mark a {
