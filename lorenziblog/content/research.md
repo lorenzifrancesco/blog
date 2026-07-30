@@ -4,7 +4,7 @@ date: 2026-06-29
 draft: false
 ---
 
-### Photonics and electromagnetics
+## Photonics and electromagnetics
 
 My current research interests are in theoretical aspects of light propagation and in the use of methods from quantum mechanics to understand photonic phenomena. I am currently working on material and structural slow light, nonlinear effects in waveguides, geometric algebra for classical electrodynamics, and optical solitons.
 
@@ -32,7 +32,7 @@ During my Ph.D. in Theoretical Physics of Matter I worked on nonlinear physics i
 Some relevant publications:
 
 - [*Bosonic Josephson junction dynamics: interplay between quantum and thermal fluctuations*](https://arxiv.org/abs/2604.27809), preprint (2026).
-- [*Experimental Observation of Single- and Multisite Matter-Wave Solitons in an Optical Accordion Lattice*](https://doi.org/10.1103/sh72-wnmv), Physical Review Letters **135**, 263404 (2025). This paper was featured in APS *Physics* with P. G. Kevrekidis's Viewpoint, [*An Accordion Lattice Playing a Soliton Tune*](https://link.aps.org/doi/10.1103/Physics.19.3).
+- [*Experimental Observation of Single- and Multisite Matter-Wave Solitons in an Optical Accordion Lattice*](https://doi.org/10.1103/sh72-wnmv), Physical Review Letters **135**, 263404 (2025). Featured in APS *Physics* with P. G. Kevrekidis's Viewpoint, [*An Accordion Lattice Playing a Soliton Tune*](https://link.aps.org/doi/10.1103/Physics.19.3).
 - [*Low-Energy Atomic Scattering: S-Wave Relation Between the Interaction Potential and the Phase Shift*](https://doi.org/10.1002/andp.202500227), Annalen der Physik **537**, e00227 (2025).
 - [*Quantum fluctuations in atomic Josephson junctions: the role of dimensionality*](https://doi.org/10.1088/1367-2630/ad127b), New Journal of Physics **26**, 013021 (2024).
 - [*Atomic soliton transmission and induced collapse in scattering from a narrow barrier*](https://doi.org/10.1038/s41598-023-49108-y), Scientific Reports **14**, 4665 (2024).
