@@ -8,6 +8,11 @@ draft: false
 
 My current research interests are in theoretical aspects of light propagation and in the use of methods from quantum mechanics to understand photonic phenomena. I am currently working on material and structural slow light, nonlinear effects in waveguides, geometric algebra for classical electrodynamics, and optical solitons.
 
+<figure class="research-figure">
+  <img src="/images/research/laser-propulsion-cavity.png" alt="Photon-recycling laser-propulsion cavity with a lightsail and a drive mirror">
+  <figcaption>Photon-recycling cavity for laser propulsion: repeated reflections between a drive mirror and a lightsail enhance the radiation pressure. Adapted from Lorenzi <em>et al.</em>, Physical Review Applied <strong>24</strong>, 034033 (2025).</figcaption>
+</figure>
+
 Some relevant publications:
 
 - [*Dimensional reduction for optical beams with thermal nonlocal nonlinearity*](https://arxiv.org/abs/2606.22553), accepted in Frontiers of Physics (2026).
@@ -19,6 +24,11 @@ Some relevant publications:
 
 I also like to work close to implementation details and numerical modelling. In particular, I perform realistic simulations for the evaluation of noise in high-throughput optical communications, including scenarios where classical channels coexist with QKD channels.
 
+<figure class="research-figure">
+  <img src="/images/research/raman-nli-spectrum.png" alt="Nonlinear interference noise spectra in Raman-amplified WDM optical links">
+  <figcaption>Nonlinear-interference spectra in distributed Raman-amplified WDM links, comparing perturbative models with time-domain simulations. Adapted from Lorenzi <em>et al.</em>, Journal of Lightwave Technology <strong>44</strong>, 4476-4490 (2026).</figcaption>
+</figure>
+
 Some relevant publications:
 
 - *Fast Estimation of Nonlinear Interference Noise in Distributed Raman-Amplified Few-Mode Fiber Links*, Journal of Lightwave Technology **44**, 4476-4490 (2026).
@@ -28,6 +38,11 @@ Some relevant publications:
 ### Ultracold quantum gases
 
 During my Ph.D. in Theoretical Physics of Matter I worked on nonlinear physics in ultracold quantum gases. This included matter-wave solitons, Josephson oscillations, and quantum scattering theory for ultracold atomic collisions.
+
+<figure class="research-figure">
+  <img src="/images/research/matter-wave-soliton-dynamics.png" alt="Matter-wave density remaining localized across optical-lattice sites over time">
+  <figcaption>Discrete matter-wave solitons in an optical accordion lattice: attractive interactions keep the atomic density localized over hundreds of milliseconds. Adapted from Cruickshank <em>et al.</em>, Physical Review Letters <strong>135</strong>, 263404 (2025).</figcaption>
+</figure>
 
 Some relevant publications:
 
