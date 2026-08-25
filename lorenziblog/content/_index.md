@@ -15,7 +15,7 @@ draft: false
       <li>Stochastic modeling for optical communications</li>
       <li>Ultracold quantum gases</li>
     </ul>
-    <p><a href="/bio/">Bio</a> · <a href="/research/">Research</a> · <a href="/talks/">Talks and seminars</a> · <a href="/posts/">Scientific posts</a></p>
+    <p><a href="/bio/">Bio</a> · <a href="/research/">Research</a> · <a href="/talks/">Talks and seminars</a> · <a href="/posts/">Posts</a></p>
   </div>
   <img src="/images/email.jpg" alt="Francesco Lorenzi" class="profile-photo">
 </div>

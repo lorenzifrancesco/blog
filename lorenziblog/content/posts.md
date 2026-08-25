@@ -1,6 +1,6 @@
 ---
-title: "Scientific posts"
+title: "Posts"
 date: 2024-08-24
 layout: "posts-list"
 ---
-Here I collect my scientific and technical notes, ordered from newest to oldest.
+Here I collect my notes, ordered from newest to oldest.

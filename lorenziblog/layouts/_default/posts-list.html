@@ -11,12 +11,28 @@
   {{ end }}
 
   <div class="post-content posts-overview-list">
+    {{ $posts := (where site.RegularPages "Section" "post").ByDate.Reverse }}
+    <h2>Science</h2>
     <ul>
-      {{ range (where site.RegularPages "Section" "post").ByDate.Reverse }}
+      {{ range $posts }}
+        {{ if not (hasPrefix .File.Dir "post/misc/") }}
         <li>
           <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+
+    <h2>Others</h2>
+    <ul>
+      {{ range $posts }}
+        {{ if hasPrefix .File.Dir "post/misc/" }}
+        <li>
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
       {{ end }}
     </ul>
   </div>

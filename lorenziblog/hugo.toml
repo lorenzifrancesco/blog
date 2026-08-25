@@ -63,7 +63,7 @@ theme = "papermod"
     pageRef = '/talks.md'
     weight = 4
   [[menus.main]]
-    name = 'Scientific posts'
+    name = 'Posts'
     pageRef = '/posts.md'
     weight = 5
 
