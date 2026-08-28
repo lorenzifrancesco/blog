@@ -36,6 +36,10 @@ My Inkscape files have four layers:
 
 Named groups such as `header`, `speakers`, and `footer` make each file a reusable template.
 
+![Inkscape Layers and Objects panel showing the poster layer system](/images/poster-design/inkscape-layer-system.png)
+
+*The Inkscape layer system separates text, shading, graphics, and background elements.*
+
 ## Use shades, not boxes everywhere
 
 A solid box can erase a background. Instead, I sample a dark colour from the image and add translucent shapes, strongest behind small text. I test contrast by reducing the poster to postcard size.
