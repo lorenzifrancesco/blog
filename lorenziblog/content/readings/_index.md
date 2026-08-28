@@ -12,6 +12,9 @@ Hope this inspires you some nice readings!
 
 ### Particularly inspiring essays
 
+- Carroll, Lewis. _Feeding the Mind_. Chatto & Windus, 1907.
+- Hamming, Richard W. _The Art of Doing Science and Engineering: Learning to Learn_. Gordon and Breach Science Publishers, 1997.
+- Toraldo di Francia, Giuliano. _Il rifiuto: considerazioni semiserie di un fisico sul mondo di oggi_. Einaudi, 1978.
 - Wiener, Norbert. _Cybernetics or Control and Communication in the Animal and the Machine, Reissue of the 1961 Second Edition_. MIT Press, 2019.
 - Brillouin, Leon. _Science and Information Theory: Second Edition_. Courier Corporation, 2013.
 
