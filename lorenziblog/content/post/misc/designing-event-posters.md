@@ -48,6 +48,25 @@ A solid box can erase a background. Instead, I sample a dark colour from the ima
 
 I prefer physics to stock images. A generated **Talbot carpet**, microscopy image, field, spectrum, or map can provide a distinctive background. A stable title and information area keep the series recognizable even when the imagery changes.
 
+<div class="poster-gallery">
+  <figure>
+    <img src="/images/poster-design/prapi-green-forms-placeholder.png" alt="PRAPI poster with smooth green three-dimensional forms" loading="lazy">
+    <figcaption>Green 3D forms with a bright magenta accent. The dark lower gradient leaves room for two speakers.</figcaption>
+  </figure>
+  <figure>
+    <img src="/images/poster-design/prapi-colour-field-placeholder.png" alt="PRAPI poster with a bright computational colour field" loading="lazy">
+    <figcaption>A bright computational image. A heavy green-grey shade turns a very busy picture into a usable background.</figcaption>
+  </figure>
+  <figure>
+    <img src="/images/poster-design/prapi-stained-glass-placeholder.png" alt="PRAPI poster with stained-glass-style scientific illustrations" loading="lazy">
+    <figcaption>Physics illustrations treated like stained glass. Here the background is split into panels instead of being one continuous image. The background image was created by Luca Campagnoni, the other Ph.D. student representative.</figcaption>
+  </figure>
+  <figure>
+    <img src="/images/poster-design/prapi-contours.png" alt="PRAPI poster with orange abstract contour lines" loading="lazy">
+    <figcaption>Warm contour-map shapes from an earlier version of the visual identity. The same image was also adapted for a Ph.D. welcome day.</figcaption>
+  </figure>
+</div>
+
 ## Make repeated layouts modular
 
 FNIP needed posters, screens, and a roll-up, so I separated content from design:
