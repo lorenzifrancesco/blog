@@ -66,6 +66,10 @@ theme = "papermod"
     name = 'Posts'
     pageRef = '/posts.md'
     weight = 5
+  [[menus.main]]
+    name = 'Readings'
+    pageRef = '/readings'
+    weight = 6
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]  # necessary for search

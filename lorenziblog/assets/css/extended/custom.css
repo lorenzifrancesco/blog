@@ -154,6 +154,10 @@ body {
   line-height: 1.5;
 }
 
+.list {
+  background: var(--theme);
+}
+
 a {
   text-underline-offset: 0.16em;
   text-decoration-thickness: 0.06em;
