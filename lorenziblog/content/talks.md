@@ -6,6 +6,8 @@ draft: false
 
 ### Presentations at conferences and workshops
 
+- [RiNEm 2026](/docs/rinem2026-slow-light.pdf), XXVI Riunione Nazionale di Elettromagnetismo, L'Aquila, Italy, 6-9 September 2026, presentation on *Beer-Lambert absorption enhancement in structural and material slow light*.
+- [RiNEm 2026](/docs/rinem2026-nonlocal.pdf), XXVI Riunione Nazionale di Elettromagnetismo, L'Aquila, Italy, 6-9 September 2026, presentation on *Dimensional reduction for paraxial beams with thermally mediated nonlocal nonlinearity*.
 - [ICOP2026](/docs/icop2026.pdf), Italian Conference of Optics and Photonics, L'Aquila, Italy, 15-17 June 2026, presentation.
 - [QSnow-QTech 2026](/docs/poster_QTech2.pdf), QSnow-QTech workshop, January 2026, poster.
 - [Bad Honnef 2025](/docs/badHonnef2025.pdf), Bad Honnef physics school on Ultracold Quantum Matter, August 2025, [poster](/docs/badHonnefposter.pdf) and flash presentation.
