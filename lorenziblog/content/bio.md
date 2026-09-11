@@ -21,12 +21,12 @@ draft: false
   <img src="/images/email.jpg" alt="Francesco Lorenzi" class="profile-photo">
 </div>
 
-I did my Ph.D. in Theoretical Physics of Matter, completed in March 2026. During the Ph.D. I worked on matter-wave solitons, nonlinear phenomena in Bose-Einstein condensates such as Josephson oscillations, and quantum scattering theory for ultracold atomic collisions.
+I did my Ph.D. in Physics, completed in March 2026. During the Ph.D. I worked on matter-wave solitons, nonlinear phenomena in Bose-Einstein condensates such as Josephson oscillations, and quantum scattering theory for ultracold atomic collisions.
 
 ### Academic experience and education
 
 - **Postdoctoral researcher**, Department of Information Engineering, University of Padova. Current work on photonics, electromagnetics, nonlinear wave propagation, and realistic simulations for optical communications.
-- **Ph.D. in Theoretical Physics of Matter**, University of Padova, completed in March 2026. Thesis: *Nonlinear physics of ultracold quantum gases and optical fields in media*.
+- **Ph.D. in Physics**, University of Padova, completed in March 2026. Thesis: *Nonlinear physics of ultracold quantum gases and optical fields in media*.
 - **M.Sc. thesis**, *Nonlinear noise in WDM systems: study of classical and quantum channel interaction and capacity*, September 2022. [PDF](/docs/Lorenzi_NLIN_BW.pdf).
 - **B.Sc. thesis**, *Dispersione cromatica e non linearita in fibra ottica, un'analisi simulativa*. [PDF](/docs/tesina.pdf).
 
