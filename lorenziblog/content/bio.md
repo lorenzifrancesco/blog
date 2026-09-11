@@ -15,7 +15,7 @@ draft: false
       <li><a href="mailto:francesco.lorenzi.2@phd.unipd.it">Email</a></li>
       <li><a href="https://github.com/lorenzifrancesco">GitHub</a></li>
       <li><a href="https://scholar.google.it/citations?user=zZfA3VcAAAAJ&hl=en&oi=ao">Google Scholar</a></li>
-      <li><a href="/docs/academic_cv_lorenzi.pdf">CV</a>, April 2026</li>
+      <li><a href="/docs/academic_cv_lorenzi.pdf">CV</a>, September 2026</li>
     </ul>
   </div>
   <img src="/images/email.jpg" alt="Francesco Lorenzi" class="profile-photo">
